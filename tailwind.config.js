@@ -13,6 +13,10 @@ export default {
         secondary: "#ffffff",
         accent: "#99ff00",
       },
+      margin: {
+        30: "30px",
+        15: "15px",
+      },
     },
   },
   plugins: [],
