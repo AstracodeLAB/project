@@ -5,9 +5,8 @@ export const AboutUs = () => {
   return (
     <>
       <section id="about" className="mx-30 my-15">
-        <div className="">
-          <h2 className="my-4 ">Sobre AstracodeLAB</h2>
-        </div>
+        <div className="absolute inset-6 z-0 h-3 bg-gradient-to-r from-lime-500 via-lime-200 to-white"></div>
+        <h2 className="relative z-10 my-4 ">Sobre AstracodeLAB</h2>
         <div className="md:flex">
           <img
             className="rounded-full my-6 shadow-xl"
