@@ -17,6 +17,9 @@ export default {
         30: "30px",
         15: "15px",
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
