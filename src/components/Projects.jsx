@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "./Carousel";
 
 export const Projects = () => {
   return (
@@ -8,7 +9,7 @@ export const Projects = () => {
         Proyectos
       </h2>
       <div>
-        
+        <Carousel />
       </div>
     </section>
   );
