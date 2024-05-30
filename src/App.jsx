@@ -4,13 +4,8 @@ import Footer from  './components/Footer'
 
 function App() {
   return (<>
-    <section>
     <Contact />
-    </section>
-    <footer>
     <Footer />
-    </footer>   
-    
     </>
     
     
