@@ -1,7 +1,9 @@
+import { Projects } from "./components/Projects";
+
 function App() {
   return (
     <>
-      
+      <Projects />
     </>
   );
 }
