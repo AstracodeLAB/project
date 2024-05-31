@@ -1,4 +1,4 @@
-import Logo from '../assets/pruebaLogo.png';
+import Logo from '../assets/prueba1Logo.png';
 import { useState } from "react";
 
 function Header () {
@@ -7,7 +7,7 @@ function Header () {
   return (
     <div className="flex items-center justify-between  mt-4 ml-7 mr-7">
       <a href="/">
-        <img className="h-12 w-12" src={Logo} alt="logo" />
+        <img className="w-20" src={Logo} alt="logo" />
       </a>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
