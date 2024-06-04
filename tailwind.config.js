@@ -11,7 +11,7 @@ export default {
       colors: {
         primary: "#1e293b",
         secondary: "#ffffff",
-        accent: "#99ff00",
+        accent: "#BFFF00",
       },
       margin: {
         30: "30px",
