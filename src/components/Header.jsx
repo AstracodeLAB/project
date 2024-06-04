@@ -38,32 +38,35 @@ function Header () {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px]">
-              <li className="border-b my-8 uppercase">
+            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold">
+              <li className="border-b border-accent my-8 uppercase">
                 <a href="/about">Servicios</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-accent my-8 uppercase">
                 <a href="/portfolio">Sobre AstracodeLAB</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-accent my-8 uppercase">
                 <a href="/contact">Proyectos</a>
               </li>
-              <li className="border-b border-gray-400 my-8 uppercase">
+              <li className="border-b border-accent my-8 uppercase">
                 <a href="/contact">Contacto</a>
               </li>
             </ul>
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-          <li>
-            <a href="/about">About</a>
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-accent text-xl font-semibold">
+          <li > 
+            <a  href="/about">Servicios</a>
           </li>
           <li>
-            <a href="/portfolio">Portfolio</a>
+            <a href="/portfolio">Sobre AstracodeLAB</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/contact">Proyectos</a>
+          </li>
+          <li className='text-accent bg-primary border border-secondary pr-2 pl-2'>
+            <a href="/contact">CONTACTAR</a>
           </li>
         </ul>
       </nav>

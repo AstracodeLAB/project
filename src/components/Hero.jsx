@@ -16,12 +16,16 @@ function Hero () {
         
       </section>
       <section>
-        <div className="w-0 h-0 
+        <div className="w-full h-0 
           border-7 border-solid border-secondary
-          border-b-[50px] border-b-transparent
-
-          border-r-[50px] border-b-transparent">
+          border-l-[100vw] border-l-transparent
+          border-b-[50px] border-b-secondary">
+          
         </div>
+        
+
+        
+  
       </section>
     </div>
   );
