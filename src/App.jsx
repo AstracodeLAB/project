@@ -1,3 +1,4 @@
+
 import Hero from './components/Hero';
 import Header from './components/Header';
 import imgBackground from './assets/imgBackground.png';
