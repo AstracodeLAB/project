@@ -9,9 +9,9 @@ export const AboutUs = () => {
         <h2 className="relative z-10 my-4 font-sans font-medium text-2xl md:text-4xl">
           Sobre AstracodeLAB
         </h2>
-        <div className="md:flex">
+        <div className="flex flex-col items-center">
           <img
-            className="rounded-full my-6 shadow-xl "
+            className="rounded-full my-6 shadow-xl size-60"
             src={about}
             alt="Tres programadoras con fondo espacial"
           />
