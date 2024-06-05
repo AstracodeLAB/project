@@ -12,9 +12,9 @@ export default {
         primary: "#1e293b",
         secondary: "#ffffff",
         accent: "#99ff00",
+        bgBlueDark: '#1B1D34'
       },
-      boxShadow: {
-        
+      boxShadow: { 
         'custom-colored': '0 4px 6px rgba(255, 0, 0, 0.4), 0 1px 3px rgba(255, 0, 0, 0.2)', // Ejemplo con sombra roja
       }
     },

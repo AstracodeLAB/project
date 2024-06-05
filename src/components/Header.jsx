@@ -20,13 +20,14 @@ function Header () {
           <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
           </div>
 
-          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+          <div className={`${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}
+>
             <div
               className="absolute top-0 right-0 px-8 py-8"
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                className="h-8 w-8 text-gray-600"
+                className="h-8 w-8 text-secondary"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -38,7 +39,7 @@ function Header () {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold">
+            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary">
               <li className="border-b border-accent my-8 uppercase">
                 <a href="/about">Servicios</a>
               </li>
@@ -81,7 +82,7 @@ function Header () {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
+        background: #1B1D34;
         z-index: 10;
         display: flex;
         flex-direction: column;
