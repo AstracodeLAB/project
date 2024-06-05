@@ -11,10 +11,10 @@ function Footer () {
         <li className="hover:text-accent"><Link to='/privacy'>Politica de privacidad</Link></li>
       </ul>
       <ul className="order-3 pt-5 lg:order-2">
-        <span>© 2024 | AstrocodeLAB</span>
+        <span>© 2024 | AstracodeLAB</span>
       </ul>
       <ul className="order-1 lg:order-3 lg:text-right">
-        <li className="hover:text-accent"><a href="#Contact">Sobre AstrocodeLAB</a></li>
+        <li className="hover:text-accent"><a href="#Contact">Sobre AstracodeLAB</a></li>
         <li className="hover:text-accent"><a href="mailto:astracodelab@gmail.com">Correo</a></li>
         <li>Linkedin</li>
       </ul>
