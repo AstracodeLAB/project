@@ -15,8 +15,9 @@ export default {
         bgBlueDark: "#1B1D34",
       },
       margin: {
-        30: "30px",
         15: "15px",
+        30: "30px",
+        100: "100px",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
