@@ -1,11 +1,12 @@
-
+import Contact from "../components/Contact";
+import Footer from "../components/Footer"
 
 function Home () {
-  return (
-      <Header/>
-      <Hero/>
-      <AboutUs/>
-      <Contact/>
-      <Footer/>
+  return (<>
+
+  <Contact/>
+  <Footer/>
+  </>
   )
 }
+export default Home

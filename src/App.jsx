@@ -1,16 +1,19 @@
-import { Route, Router } from 'react-router-dom';
-import Contact from './components/Contact'
-import Footer from  './components/Footer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'
+import LegalNotice from './pages/LegalNotice'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+
 
 
 function App() {
   return (<>
-    <Router>
-    <Contact />
-    <Footer />
-    <Route path="/Aviso-legal" component={LegalNotice} />
-    <Route path="/politica-de-privacidad" component={PrivacyPolicy} />
-    </Router>
+   <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/legal" element={<LegalNotice/>} />
+    <Route path="/privacy" element={<PrivacyPolicy/>} />
+    </Routes>
+    </BrowserRouter>
     </>
     
     

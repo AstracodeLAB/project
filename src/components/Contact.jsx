@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 function Contact() {
 
   return (
@@ -70,7 +71,7 @@ function Contact() {
             <b>Legitimación:</b> Consentimiento del usuario. <br></br>
             <b>Destinatarios:</b> Proveedor mensajería online.<br></br>
             <b>Finalidad:</b> Responder a su consulta.<br></br>
-            <b>Derechos:</b> Acceder, rectificar y suprimir los datos, así como otros derechos, que puede consultar de forma detallada en nuestra <a href="/privacy-policy">Política de Privacidad.</a></span>
+            <b>Derechos:</b> Acceder, rectificar y suprimir los datos, así como otros derechos, que puede consultar de forma detallada en nuestra <Link to="/privacy">Política de Privacidad.</Link></span>
           </form>
         </div>
       </div>
