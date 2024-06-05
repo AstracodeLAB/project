@@ -1,6 +1,6 @@
 function LegalNotice () {
   return (<>
-  Legal
+  📍Legal
   </>
   )
 }

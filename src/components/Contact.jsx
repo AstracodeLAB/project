@@ -56,13 +56,11 @@ function Contact() {
             </div>
             <div className="flex items-center">
                 <input id="link-checkbox" required type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
-                <label for="link-checkbox" className="ms-2 text-xs font-medium text-gray-900 dark:text-gray-300">Acepto que se traten mis datos para gestionar la consulta.</label>
-                
+                <label for="link-checkbox" className="ms-2 text-xs">Acepto que se traten mis datos para gestionar la consulta.</label>
             </div>
             <button
               type='submit'
               className=' min-w-full py-3 px-7 text-xl font-semibold text-center text-black rounded-lg bg-primary sm:w-fit hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-primary dark:bg-primary dark:hover:bg-black dark:hover:text-white dark:focus:ring-primary '
-
             >
               CONTACTAR
             </button>
