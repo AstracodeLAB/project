@@ -22,7 +22,15 @@ export default {
         sans: ["Inter", "sans-serif"],
       },
       boxShadow: { 
-        'custom-colored': '0 4px 6px rgba(255, 0, 0, 0.4), 0 1px 3px rgba(255, 0, 0, 0.2)', // Ejemplo con sombra roja
+        'imgHeader': '0 10px 10px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(255, 255, 255, 0.24)',
+      },
+      fontSize: {
+        'h1': ['2.6rem', {
+          lineHeight: '3rem',
+          letterSpacing: '-0.01em',
+          fontWeight: '500',
+        }],
+        
       }
     },
   },

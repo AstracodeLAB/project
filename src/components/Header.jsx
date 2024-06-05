@@ -5,7 +5,7 @@ function Header () {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between  mt-4 ml-7 mr-7">
+    <div className="flex items-center justify-between  mt-4 mx-7">
       <a href="/">
         <img className="w-20" src={Logo} alt="logo" />
       </a>
