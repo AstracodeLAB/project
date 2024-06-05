@@ -1,6 +1,8 @@
+
 import Hero from './components/Hero';
 import Header from './components/Header';
 import imgBackground from './assets/imgBackground.png';
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
     style={{ backgroundImage: `url(${imgBackground})` }} >
       <Header />
       <Hero />
+      <AboutUs />    
     </div>
+
   );
 }
 
