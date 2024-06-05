@@ -1,20 +1,22 @@
-import Hero from "./components/Hero";
-import Header from "./components/Header";
-import imgBackground from "./assets/imgBackground.png";
-import AboutUs from "./components/AboutUs";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'
+import LegalNotice from './pages/LegalNotice'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+
+
 
 function App() {
-  return (
-    <>
-      <div
-        className="min-h-screen bg-cover bg-center flex flex-col"
-        style={{ backgroundImage: `url(${imgBackground})` }}
-      >
-        <Header />
-        <Hero />
-      </div>
-      <AboutUs />
+  return (<>
+   <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="/legal" element={<LegalNotice/>} />
+    <Route path="/privacy" element={<PrivacyPolicy/>} />
+    </Routes>
+    </BrowserRouter>
     </>
+    
+    
   );
 }
 
