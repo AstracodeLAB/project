@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <section id="projects" className="mx-30 my-15">
       <div className="absolute inset-6 z-0 h-4 bg-gradient-to-r from-lime-500 via-lime-200 to-white"></div>
@@ -14,3 +14,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

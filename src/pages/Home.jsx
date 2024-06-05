@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
+import Projects from "../components/Projects";
 import imgBackground from "../assets/imgBackground.png";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
         <Hero />
       </div>
       <AboutUs />
+      <Projects />
       <Contact />
       <Footer />
     </>
