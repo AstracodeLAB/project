@@ -3,9 +3,16 @@ import Footer from "../components/Footer"
 
 function Home () {
   return (<>
-
-  <Contact/>
-  <Footer/>
+    <div
+      className="min-h-screen bg-cover bg-center flex flex-col"
+      style={{ backgroundImage: `url(${imgBackground})` }}
+    >
+      <Header />
+      <Hero />
+    </div>
+    <AboutUs />
+    <Contact/>
+    <Footer/>
   </>
   )
 }
