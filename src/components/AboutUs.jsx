@@ -5,7 +5,7 @@ export const AboutUs = () => {
   return (
     <>
       <section id="about" className="mx-30 my-15">
-        <div className="absolute inset-6 z-0 h-4 bg-gradient-to-r from-lime-500 via-lime-200 to-white md:h-7"></div>
+        <div className="relative top-10 z-0 h-4 bg-gradient-to-r from-lime-500 via-lime-200 to-white md:h-7"></div>
         <h2 className="relative z-10 my-4 font-sans font-medium text-2xl md:text-4xl">
           Sobre AstracodeLAB
         </h2>
