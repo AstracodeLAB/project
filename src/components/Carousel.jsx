@@ -1,24 +1,5 @@
 import React, { useState } from "react";
-import painting from "../assets/painting.jpg";
-
-const projects = [
-  {
-    title: "Proyecto 1",
-    description: "Descripción del Proyecto 1",
-    image: painting,
-  },
-  {
-    title: "Proyecto 2",
-    description: "Descripción del Proyecto 2",
-    image: "/path/to/image2.jpg",
-  },
-  {
-    title: "Proyecto 3",
-    description: "Descripción del Proyecto 3",
-    image: "/path/to/image3.jpg",
-  },
-  // Aquí se van agregando más proyectos
-];
+import projects from "../data/projectsData";
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);
@@ -40,14 +21,22 @@ const Carousel = () => {
         >
           {projects.map((project, index) => (
             <div key={index} className="min-w-full p-4">
-              <div className="  bg-black rounded-lg overflow-hidden shadow-lg mx-auto max-w-xs sm:max-w-md">
+              <div className="bg-black rounded-lg overflow-hidden shadow-lg mx-auto max-w-xs sm:max-w-md">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-64 object-cover rounded-t-lg"
                 />
                 <div className="p-4 bg-black text-white font-sans rounded-b-lg">
-                  <h2 className="text-xl font-bold">{project.title}</h2>
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h2 className="text-xl font-bold hover:underline cursor-pointer">
+                      {project.title}
+                    </h2>
+                  </a>
                   <p className="mt-2">{project.description}</p>
                 </div>
               </div>
