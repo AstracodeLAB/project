@@ -32,7 +32,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto md:hidden">
+    <div className="relative w-full max-w-4xl mx-auto">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-500"
@@ -40,7 +40,7 @@ const Carousel = () => {
         >
           {projects.map((project, index) => (
             <div key={index} className="min-w-full p-4">
-              <div className="  bg-black rounded-lg overflow-hidden shadow-lg">
+              <div className="  bg-black rounded-lg overflow-hidden shadow-lg mx-auto max-w-xs sm:max-w-md">
                 <img
                   src={project.image}
                   alt={project.title}
