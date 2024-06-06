@@ -9,18 +9,33 @@ import imgBackground from "../assets/imgBackground.png";
 function Home() {
   return (
     <>
+      {/* Sección para el Header y el Hero */}
       <div
-        className="min-h-screen bg-cover bg-center flex flex-col"
-        style={{ backgroundImage: `url(${imgBackground})` }}
+        className="bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${imgBackground})`,
+          backgroundSize: "cover",
+        }}
       >
         <Header />
         <Hero />
       </div>
-      <AboutUs />
-      <Projects />
-      <Contact />
-      <Footer />
+
+      {/* Resto de secciones */}
+      <div
+        className="min-h-screen bg-cover bg-center flex flex-col"
+        style={{
+          backgroundImage: `linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), url(${imgBackground})`,
+          backgroundSize: "cover",
+        }}
+      >
+        <AboutUs />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }
+
 export default Home;
