@@ -1,6 +1,10 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 function PrivacyPolicy() {
   return (
     <>
+    <Header />
       <section className='m-10'>
         <h1 className='text-xl pb-8'>Política de privacidad</h1>
         <p>
@@ -236,6 +240,7 @@ function PrivacyPolicy() {
           </p>        
         </ol>
       </section>
+      <Footer />
     </>
   );
 }
