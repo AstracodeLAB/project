@@ -23,20 +23,20 @@ const projects = [
 
 const ProjectsGrid = () => {
   return (
-    <div>
-      {projects.map((projects, index) => (
+    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 md:max-w-3xl lg:max-w-5xl mx-auto">
+      {projects.map((project, index) => (
         <div
           key={index}
           className="bg-black rounded-lg overflow-hidden shadow-lg"
         >
           <img
-            src={projects.image}
-            alt={projects.title}
+            src={project.image}
+            alt={project.title}
             className="w-full h-64 object-cover rounded-t-lg"
           />
           <div className="p-4 bg-black text-white font-sans rounded-b-lg">
-            <h2 className="text-xl font-bold">{projects.title}</h2>
-            <p className="mt-2">{projects.description}</p>
+            <h2 className="text-xl font-bold">{project.title}</h2>
+            <p className="mt-2">{project.description}</p>
           </div>
         </div>
       ))}

@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
+import ProjectsGrid from "./ProjectsGrid";
 
 const Projects = () => {
   return (
@@ -10,7 +11,12 @@ const Projects = () => {
         </h2>
       </div>
       <div className="my-30">
-        <Carousel />
+        <div className="block md:hidden">
+          <Carousel />
+        </div>
+        <div className="hidden md:block">
+          <ProjectsGrid />
+        </div>
       </div>
     </section>
   );
