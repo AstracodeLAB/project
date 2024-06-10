@@ -1,7 +1,4 @@
-function LegalNotice () {
-  return (<>
-  📍Legal
-  </>
-  )
+function LegalNotice() {
+  return <>📍Legal</>;
 }
-export default LegalNotice 
+export default LegalNotice;

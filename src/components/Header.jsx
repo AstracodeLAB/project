@@ -1,7 +1,7 @@
-import Logo from '../assets/prueba1Logo.png';
+import Logo from "../assets/prueba1Logo.png";
 import { useState } from "react";
 
-function Header () {
+function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
@@ -15,13 +15,12 @@ function Header () {
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)}
           >
-          <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
-          <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
-          <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
+            <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
+            <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
+            <span className="block h-1.5 w-9 animate-pulse bg-accent rounded-full"></span>
           </div>
 
-          <div className={`${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}
->
+          <div className={`${isNavOpen ? "showMenuNav" : "hideMenuNav"}`}>
             <div
               className="absolute top-0 right-0 px-8 py-8"
               onClick={() => setIsNavOpen(false)}
@@ -55,7 +54,8 @@ function Header () {
             </ul>
           </div>
         </section>
-
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-accent text-xl font-semibold">
+          <li>
         <ul className="DESKTOP-MENU hidden space-x-16 lg:flex text-accent text-xl font-normal lg:text-2xl text-shadow-md">
           <li > 
             <a href="/about">Servicios</a>
@@ -66,6 +66,7 @@ function Header () {
           <li>
             <a href="/contact">Proyectos</a>
           </li>
+          <li className="text-accent bg-primary border border-secondary pr-2 pl-2">
           <li className='text-accent bg-primary border border-secondary pr-2 pl-2 rounded-lg hover:bg-accent hover:text-primary shadow-shadowWhite'>
             <a href="/contact">CONTACTAR</a>
           </li>
@@ -94,4 +95,4 @@ function Header () {
   );
 }
 
-  export default Header;
+export default Header;
