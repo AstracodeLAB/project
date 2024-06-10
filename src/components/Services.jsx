@@ -11,7 +11,7 @@ export const Services = () => {
     {
       title: "Desarrollo de aplicaciones web personalizadas",
       description: "Creamos aplicaciones web a medida que se adaptan perfectamente a tus necesidades y objetivos de negocio, utilizando las últimas tecnologías y metodologías ágiles.",
-      bgClass: "bg-primary text-secondary",
+      bgClass: "bg-black text-secondary",
     },
     {
       title: "Diseño y Experiencia de Usuario (UX/UI)",
@@ -21,7 +21,7 @@ export const Services = () => {
     {
       title: "Consultoría Tecnológica",
       description: "Ofrecemos asesoramiento experto para ayudarte a tomar decisiones informadas sobre las mejores tecnologías y prácticas para tu negocio.",
-      bgClass: "bg-primary text-secondary",
+      bgClass: "bg-black text-secondary",
     },
     {
       title: "Mantenimiento y Soporte Continuo",
@@ -33,17 +33,19 @@ export const Services = () => {
   return (
     <section id="about" className="mx-30 mt-7 ">
       <div className="">
-        <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-white font-sans font-medium text-xl px-2 rounded md:inline-block md:text-2xl">
+        <h2 className="relative z-10 bg-gradient-to-r from-accent to-transparent font-sans font-medium text-2xl px-2 rounded md:inline-block md:text-4xl">
           Servicios
         </h2>
-        <ul className="flex flex-col justify-center">
+        <ul className="flex flex-col justify-center lg:grid lg:grid-cols-2 lg:gap-4">
           {services.map((service, serviceIndex) => (
-            <li key={serviceIndex} className={`${service.bgClass} rounded-[35px] mt-4 p-5 flex flex-col align-center`}>
-              <h3 className="text-xl flex justify-between items-center">
+            <li key={serviceIndex} className={`${service.bgClass} rounded-[35px] mt-4 p-5 lg:p-7 flex flex-col items-center text-center shadow-lg`}>
+              <h3 className="text-2xl flex justify-between items-center">
                 {service.title}
                 
               </h3>
-              <button onClick={() => handleToggle(serviceIndex)}>
+              <button 
+                className="lg:hidden"
+                onClick={() => handleToggle(serviceIndex)}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className={`h-6 w-6 transform transition-transform ${activeServiceIndex === serviceIndex ? 'rotate-180' : ''}`}
@@ -54,11 +56,11 @@ export const Services = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
-              {activeServiceIndex === serviceIndex && (
-                <p className="mt-4 transition-all duration-500 ease-in-out">
-                  {service.description}
-                </p>
-              )}
+                <p
+                className={`mt-4 transition-all duration-500 ease-in-out ${activeServiceIndex === serviceIndex ? 'block' : 'hidden'} lg:block `}
+              >
+                {service.description}
+              </p>
             </li>
           ))}
         </ul>
