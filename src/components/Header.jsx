@@ -5,7 +5,7 @@ function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between  mt-4 ml-7 mr-7">
+    <div className="flex items-center justify-between  mt-4 mx-7">
       <a href="/">
         <img className="w-20" src={Logo} alt="logo" />
       </a>
@@ -38,7 +38,7 @@ function Header() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary">
+            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary ">
               <li className="border-b border-accent my-8 uppercase">
                 <a href="/about">Servicios</a>
               </li>
@@ -54,9 +54,10 @@ function Header() {
             </ul>
           </div>
         </section>
-
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-accent text-xl font-semibold">
           <li>
+        <ul className="DESKTOP-MENU hidden space-x-16 lg:flex text-accent text-xl font-normal lg:text-2xl text-shadow-md">
+          <li > 
             <a href="/about">Servicios</a>
           </li>
           <li>
@@ -66,6 +67,7 @@ function Header() {
             <a href="/contact">Proyectos</a>
           </li>
           <li className="text-accent bg-primary border border-secondary pr-2 pl-2">
+          <li className='text-accent bg-primary border border-secondary pr-2 pl-2 rounded-lg hover:bg-accent hover:text-primary shadow-shadowWhite'>
             <a href="/contact">CONTACTAR</a>
           </li>
         </ul>
