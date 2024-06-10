@@ -12,15 +12,17 @@ export default {
         primary: "#1e293b",
         secondary: "#ffffff",
         accent: "#BFFF00",
-        bgBlueDark: '#1B1D34'
+        bgBlueDark: "#1B1D34",
       },
       margin: {
-        30: "30px",
         15: "15px",
+        30: "30px",
+        100: "100px",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
+
       boxShadow: { 
         'shadowWhite': '0 10px 10px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(255, 255, 255, 0.24)',
         'shadowBlack': '0 10px 10px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.3)',
@@ -39,6 +41,7 @@ export default {
         
         
       }
+
     },
   },
   plugins: [],
