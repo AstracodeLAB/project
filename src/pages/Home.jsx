@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 import imgBackground from "../assets/imgBackground.png";
 import Services from "../components/Services";
+import Carousel from "../components/Carousel";
 
 function Home () {
   return (<>
@@ -18,6 +19,7 @@ function Home () {
 
     <Services/>
     <AboutUs />
+    <Carousel/>
     <Contact/>
     <Footer/>
   </>
