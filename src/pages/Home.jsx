@@ -1,10 +1,10 @@
 import Contact from "../components/Contact";
-import Footer from "../components/Footer"
-import Header from "../components/Header"
-import Hero from "../components/Hero"
-import AboutUs from "../components/AboutUs"
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import AboutUs from "../components/AboutUs";
 import imgBackground from "../assets/imgBackground.png";
-import Services from "../components/Services"
+import Services from "../components/Services";
 
 function Home () {
   return (<>
@@ -15,6 +15,7 @@ function Home () {
       <Header />
       <Hero />
     </div>
+
     <Services/>
     <AboutUs />
     <Contact/>
@@ -22,4 +23,5 @@ function Home () {
   </>
   )
 }
-export default Home
+
+export default Home;
