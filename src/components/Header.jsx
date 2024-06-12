@@ -26,7 +26,7 @@ function Header() {
 							onClick={() => setIsNavOpen(false)}
 						>
 							<svg
-								className='h-8 w-8 text-secondary transition-colors duration-300 hover:text-accent'
+								className='h-8 w-8 text-secondary transition-colors duration-300 hover:text-accent cursor-pointer'
 								viewBox='0 0 24 24'
 								fill='none'
 								stroke='currentColor'
@@ -88,6 +88,7 @@ function Header() {
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center;
+          cursor: default;
         }
 
         
