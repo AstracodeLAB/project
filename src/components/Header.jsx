@@ -65,16 +65,22 @@ function Header() {
 
 				<ul className='DESKTOP-MENU hidden space-x-8 lg:flex text-accent text-xl font-semibold'>
 					<li>
-						<a href='/about'>Servicios</a>
+						<a href='/about' className='hover:text-secondary transition-colors duration-300'>
+							Servicios
+						</a>
 					</li>
 					<li>
-						<a href='/portfolio'>Sobre AstracodeLAB</a>
+						<a href='/portfolio' className='hover:text-secondary transition-colors duration-300'>
+							Sobre AstracodeLAB
+						</a>
 					</li>
 					<li>
-						<a href='/projects'>Proyectos</a>
+						<a href='/projects' className='hover:text-secondary transition-colors duration-300'>
+							Proyectos
+						</a>
 					</li>
-					<li className='text-accent bg-primary border border-secondary pr-2 pl-2'>
-						<a href='/contact'>CONTACTAR</a>
+					<li className='text-accent bg-primary border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
+						<a href='/contact'>Contactar</a>
 					</li>
 				</ul>
 			</nav>
