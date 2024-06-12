@@ -6,7 +6,7 @@ const ProjectsGrid = () => {
 			{projects.map((project, index) => (
 				<div key={index} className='bg-black rounded-lg overflow-hidden shadow-lg'>
 					<img src={project.image} alt={project.title} className='w-full h-64 object-cover rounded-t-lg' />
-					<div className='p-4 bg-black text-white font-sans rounded-b-lg'>
+					<div className='p-4 bg-black text-white rounded-b-lg'>
 						<a href={project.url} target='_blank' rel='noopener noreferrer'>
 							<h2 className='text-xl font-bold hover:underline cursor-pointer'>{project.title}</h2>
 						</a>
