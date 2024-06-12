@@ -15,7 +15,7 @@ export const AboutUs = () => {
 						src={about}
 						alt='Tres programadoras con fondo espacial'
 					/>
-					<article className='font-semibold text-sm border-2 border-black rounded-2xl p-6 my-2 mx-6 shadow-xl md:m-0 md:w-1/2 lg:w-1/2 lg:h-52'>
+					<article className='lg:text-xl text-gray-900 dark:text-gray-900 border-2 border-black rounded-2xl p-6 my-2 mx-6 shadow-xl md:m-0 md:w-1/2 lg:w-1/2 lg:h-52'>
 						<p className='my-3'>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 							dolore magna aliqua. ahfalfha
