@@ -38,18 +38,26 @@ function Header() {
 								<line x1='6' y1='6' x2='18' y2='18' />
 							</svg>
 						</div>
-						<ul className='flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary'>
-							<li className='border-b border-accent my-8 uppercase'>
-								<a href='/about'>Servicios</a>
+						<ul className='flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary '>
+							<li className='border-b border-accent my-8 uppercase hover:border-transparent transition-border duration-300'>
+								<a href='/about' className='hover:text-accent transition-colors duration-300'>
+									Servicios
+								</a>
 							</li>
-							<li className='border-b border-accent my-8 uppercase'>
-								<a href='/portfolio'>Sobre AstracodeLAB</a>
+							<li className='border-b border-accent my-8 uppercase hover:border-transparent transition-border duration-300'>
+								<a href='/portfolio' className='hover:text-accent transition-colors duration-300'>
+									Sobre AstracodeLAB
+								</a>
 							</li>
-							<li className='border-b border-accent my-8 uppercase'>
-								<a href='/projects'>Proyectos</a>
+							<li className='border-b border-accent my-8 uppercase hover:border-transparent transition-border duration-300'>
+								<a href='/projects' className='hover:text-accent transition-colors duration-300'>
+									Proyectos
+								</a>
 							</li>
-							<li className='border-b border-accent my-8 uppercase'>
-								<a href='/contact'>Contacto</a>
+							<li className='border-b border-accent my-8 uppercase hover:border-transparent transition-border duration-300'>
+								<a href='/contact' className='hover:text-accent transition-colors duration-300'>
+									Contacto
+								</a>
 							</li>
 						</ul>
 					</div>
