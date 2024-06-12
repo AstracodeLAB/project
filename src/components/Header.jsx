@@ -79,7 +79,7 @@ function Header() {
 							Proyectos
 						</a>
 					</li>
-					<li className='text-accent bg-primary border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
+					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
 						<a href='/contact'>Contactar</a>
 					</li>
 				</ul>
