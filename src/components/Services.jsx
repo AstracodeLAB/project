@@ -16,7 +16,7 @@ export const Services = () => {
     {
       title: "Diseño y Experiencia de Usuario (UX/UI)",
       description: "Diseñamos interfaces atractivas y fáciles de usar, asegurando una experiencia de usuario excepcional que mantiene a tus clientes comprometidos y satisfechos.",
-      bgClass: "bg-secondary border-4 border-primary",
+      bgClass: "bg-secondary text-terciary border-4 border-primary",
     },
     {
       title: "Consultoría Tecnológica",
@@ -26,14 +26,14 @@ export const Services = () => {
     {
       title: "Mantenimiento y Soporte Continuo",
       description: "Proporcionamos servicios de mantenimiento y soporte para asegurar que tu sitio web siempre esté en funcionamiento y actualizado con las últimas mejoras y parches de seguridad.",
-      bgClass: "bg-secondary border-4 border-primary",
+      bgClass: "bg-secondary text-terciary border-4 border-primary",
     },
   ];
 
   return (
-    <section id="about" className="mx-40 mt-7 ">
+    <section id="about" className="m-5 mt-20 md:mx-16 lg:mx-28 ">
       <div className="">
-        <h2 className="my-4 relative z-10 bg-gradient-to-r from-accent to-transparent font-sans font-medium text-2xl px-2 rounded md:inline-block md:text-4xl">
+        <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl">
           Servicios
         </h2>
         <ul className="flex flex-col justify-center lg:grid lg:grid-cols-2 lg:gap-12">

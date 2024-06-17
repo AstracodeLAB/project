@@ -6,10 +6,10 @@ function Contact() {
     <section className="bg-white dark:bg-grey-600 mt-20 m-5 rounded-lg md:grid md:grid-cols-2 md:gap-4 md:mx-16 lg:mx-28">
       <div className="md:grid md:grid-cols-2 md:gap-4 md:grid-cols-subgrid md:col-span-2">
         <div className="  mx-auto max-w-screen-md ">
-          <h2 className="mt-5 mb-5 pt-4 text-4xl font-semibold text-center text-black-900 dark:text-black">
+          <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl dark:text-black">
             Contacto
           </h2>
-          <p className="mb-8 py-4 px-7 lg:mb-16  text-center text-gray-900 dark:text-gray-900 lg:text-xl">
+          <p className="mb-8 py-4 px-2 lg:mb-16  text-terciary text-gray-900 dark:text-gray-900 lg:text-xl">
             En AstracodeLAB, te ayudamos a convertir tus ideas en realidad. Si
             necesitas más información sobre nuestros servicios o deseas que
             analicemos tu próximo proyecto, no dudes en ponerte en contacto con

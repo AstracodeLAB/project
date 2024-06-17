@@ -3,9 +3,9 @@ import ProjectsGrid from './ProjectsGrid';
 
 const Projects = () => {
 	return (
-		<section id='projects' className='mx-30 my-25 md:mx-100 md:my-52'>
+		<section id='projects' className='m-5 mt-20 md:mx-16 lg:mx-28 '>
 			<div className='relative z-0 md:w-3/4 '>
-				<h2 className='relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-xl px-2 rounded md:inline-block md:text-2xl'>
+				<h2 className='relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl'>
 					Proyectos
 				</h2>
 			</div>

@@ -13,16 +13,13 @@ function Hero() {
             <h1 className="mt-4 font-medium text-h1 text-secondary text-center lg:text-left lg:text-h1lg">
               Astra<span className="text-accent">code</span>LAB Diseño web
             </h1>
-            <p className="mt-4 font-semibold text-secondary text-center lg:text-left">
+            <p className="mt-4 text-secondary text-center lg:text-left">
               En AstracodeLAB, proporcionamos una gama completa de servicios de
               desarrollo web, desde el concepto inicial hasta el lanzamiento y
               mantenimiento continuo. Nuestro objetivo es proporcionarte las
               herramientas necesarias para que puedas desenvolverte en el mundo
               digital.
               </p>
-            <p className="mt-4 textfont-semibold text-secondary text-center lg:text-left lg:text-lg lg:mt-6">
-              En AstracodeLAB, proporcionamos una gama completa de servicios de desarrollo web, desde el concepto inicial hasta el lanzamiento y mantenimiento continuo. Nuestro objetivo es proporcionarte las herramientas necesarias para que puedas desarrollarte en el ámbito digital.
-            </p>
             <div className="flex justify-center lg:mt-6 mb-4">
               <button className="bg-accent font-bold flex mt-4 p-3 text-4xl rounded-full hover:bg-secondary hover:text-accent md:p-4  ">
                 CONTACTAR
