@@ -9,7 +9,7 @@ const Projects = () => {
 					Proyectos
 				</h2>
 			</div>
-			<div className='my-30'>
+			<div className='py-4 px-2'>
 				<div className='block md:hidden'>
 					<Carousel />
 				</div>

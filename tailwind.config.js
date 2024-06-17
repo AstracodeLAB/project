@@ -5,12 +5,15 @@ export default {
 		extend: {
 			colors: {
 				primary: '#1e293b',
-				secondary: '#ffffff',
+				secondary: 'rgba(255,255,255,.7)',
 				terciary: '#111827',
 				accent: '#BFFF00',
 				bgBlueDark: '#1B1D34',
+				bgBlack: '#161618',
+				white:'#fff'
 			},
 			margin: {
+				mSections: '5rem',
 				15: '15px',
 				30: '30px',
 				100: '100px',
@@ -33,9 +36,9 @@ export default {
 					},
 				],
 				h1lg: [
-					'6rem',
+					'5rem',
 					{
-						lineHeight: '6rem',
+						lineHeight: '5rem',
 						letterSpacing: '0.01em',
 						fontWeight: '300',
 					},
