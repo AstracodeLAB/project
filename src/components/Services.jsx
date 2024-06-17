@@ -32,11 +32,13 @@ export const Services = () => {
 
   return (
     <section id="about" className="mx-40 mt-7 ">
-      <div className="">
-        <h2 className="my-4 relative z-10 bg-gradient-to-r from-accent to-transparent font-sans font-medium text-2xl px-2 rounded md:inline-block md:text-4xl">
-          Servicios
-        </h2>
-        <ul className="flex flex-col justify-center lg:grid lg:grid-cols-2 lg:gap-12">
+      <div className="flex flex-col items-center ">
+        <div className="w-full">
+          <h2 className="my-4 relative z-10 bg-gradient-to-r from-accent to-transparent font-sans font-medium text-2xl px-2 rounded md:inline-block md:text-4xl text-left">
+            Servicios
+          </h2>
+        </div>
+        <ul className="flex flex-col justify-center gap-4 min-w-60 lg:grid lg:grid-cols-2 lg:gap-12">
           {services.map((service, serviceIndex) => (
             <li key={serviceIndex} className={`${service.bgClass} rounded-[35px] p-5 lg:p-7 flex flex-col items-center text-center shadow-lg`}>
               <h3 className="text-xl flex justify-between items-center lg:text-2xl">
