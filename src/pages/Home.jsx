@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<>
 			<div
-				className='min-h-screen bg-cover bg-center flex flex-col'
+				className='min-h-screen bg-cover bg-center flex flex-col md:min-h-min'
 				style={{ backgroundImage: `url(${imgBackground})` }}
 			>
 				<Header />

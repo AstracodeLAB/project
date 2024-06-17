@@ -10,7 +10,7 @@ function Hero() {
             <img className="h-auto rounded-full shadow-Hero-primary shadow-shadowWhite lg:max-w-[80%] lg:max-h-[80%]" src={imgHero} alt="Hero Image" />
           </div>
           <div className="order-2 lg:order-1">
-            <h1 className="mt-4 font-medium text-h1 text-secondary text-center lg:text-left lg:text-h1lg">
+            <h1 className="mt-4 font-medium text-h1 text-secondary text-center lg:text-left lg:text-h1lg min-w-fit">
               Astra<span className="text-accent">code</span>LAB Diseño web
             </h1>
             <p className="mt-4 text-secondary text-center lg:text-left">
@@ -34,10 +34,7 @@ function Hero() {
           border-7 border-solid border-secondary
           border-l-[100vw] border-l-transparent
           border-b-[50px] border-b-secondary,
-          md:border-b-[100px] border-b-secondary,
-          lg:border-b-[130px] border-b-secondary,
-          xl:border-b-[140px] border-b-secondary,
-          2xl:border-b-[250px] border-b-secondary"
+          "
         ></div>
       </section>
       

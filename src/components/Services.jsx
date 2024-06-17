@@ -31,12 +31,14 @@ export const Services = () => {
   ];
 
   return (
-    <section id="about" className="m-5 mt-20 md:mx-16 lg:mx-28 ">
-      <div className="">
-        <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl">
-          Servicios
-        </h2>
-        <ul className="flex flex-col justify-center lg:grid lg:grid-cols-2 lg:gap-12">
+    <section id="about" className="m-5 mt-20 md:mx-16 lg:mx-28">
+      <div className="flex flex-col items-center ">
+        <div className="w-full">
+          <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl">
+            Servicios
+          </h2>
+        </div>
+        <ul className="flex flex-col justify-center gap-4 min-w-60 lg:grid lg:grid-cols-2 lg:gap-12">
           {services.map((service, serviceIndex) => (
             <li key={serviceIndex} className={`${service.bgClass} rounded-[35px] p-5 lg:p-7 flex flex-col items-center text-center shadow-lg`}>
               <h3 className="text-xl flex justify-between items-center lg:text-2xl">
