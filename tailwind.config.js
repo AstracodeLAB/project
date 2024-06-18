@@ -10,7 +10,8 @@ export default {
 				accent: '#BFFF00',
 				bgBlueDark: '#1B1D34',
 				bgBlack: '#161618',
-				white:'#fff'
+				white:'#fff',
+				hero:'#e1e1e1'
 			},
 			margin: {
 				mSections: '5rem',
@@ -28,19 +29,19 @@ export default {
 			},
 			fontSize: {
 				h1: [
-					'2.6rem',
+					'3.4rem',
 					{
 						lineHeight: '3rem',
 						letterSpacing: '0.01em',
-						fontWeight: '300',
+						fontWeight: '600',
 					},
 				],
 				h1lg: [
-					'5rem',
+					'4.5rem',
 					{
 						lineHeight: '5rem',
 						letterSpacing: '0.01em',
-						fontWeight: '300',
+						fontWeight: '500',
 					},
 				],
 			},
