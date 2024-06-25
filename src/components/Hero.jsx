@@ -1,47 +1,35 @@
 import imgHero from '../assets/BgHero.png';
 
 function Hero() {
-  return (
-    <div className="relative min-h-[80vh] flex flex-col justify-between">
-      <section className="flex justify-center items-center mt-7 w-full">
-        
-        <article className="w-full lg:w-4/5 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center mx-10 lg:px-0 lg:mx-32 ">
-          <div className="order-1 lg:order-2 flex justify-center">
-            <img className="h-auto rounded-full shadow-Hero-primary shadow-shadowWhite lg:max-w-[80%] lg:max-h-[80%]" src={imgHero} alt="Hero Image" />
+  return (<>
+       <section >
+        <article className=" flex flex-col justify-center items-center px-2 mb-5 m-5 md:mx-16 lg:mx-28 lg:grid lg:grid-cols-2 lg:gap-28 lg:justify-items-center lg:items-center ">
+          <div className="order-1 lg:order-2 min-w-[150px] max-w-[200px] sm:max-w-[300px] lg:max-w-[500px] mb-5">
+            <img className="h-auto rounded-full shadow-Hero-primary shadow-shadowWhite " src={imgHero} alt="Hero Image" />
           </div>
-          <div className="order-2 lg:order-1">
-            <h1 className="mt-4 font-medium text-h1 text-secondary text-center lg:text-left lg:text-h1lg min-w-fit">
-              Astra<span className="text-accent">code</span>LAB Diseño web
+          <div className="order-2 mb-5 lg:order-1  font-sans">
+            <h1 className="my-7 font-medium text-h1 text-hero text-center lg:text-left lg:text-h1lg min-w-fit">
+             Diseño web
             </h1>
-            <p className="mt-4 font-semibold text-secondary text-center lg:text-left">
-              En AstracodeLAB, proporcionamos una gama completa de servicios de
-              desarrollo web, desde el concepto inicial hasta el lanzamiento y
-              mantenimiento continuo. Nuestro objetivo es proporcionarte las
-              herramientas necesarias para que puedas desenvolverte en el mundo
-              digital.
+            <p className="mt-4 font-sans text-hero text-m lg:text-justify text-lg lg:text-l text-hero mb-5 lg:text-left">
+              En Astra<span className="text-accent">code</span>LAB, <span className="text-accent font-semibold">diseñamos y desarrollamos</span> tu sitio web. Te proporcionamos las herramientas esenciales para destacar en el mundo digital, desde el concepto inicial hasta el lanzamiento y mantenimiento. 
               </p>
-            <p className="mt-4 textfont-semibold text-secondary text-center lg:text-left lg:text-lg lg:mt-6">
-              En AstracodeLAB, proporcionamos una gama completa de servicios de desarrollo web, desde el concepto inicial hasta el lanzamiento y mantenimiento continuo. Nuestro objetivo es proporcionarte las herramientas necesarias para que puedas desarrollarte en el ámbito digital.
-            </p>
-            <div className="flex justify-center lg:mt-6 mb-4">
-              <button className="bg-accent font-bold flex mt-4 p-3 text-4xl rounded-full hover:bg-secondary hover:text-accent md:p-4  ">
-                CONTACTAR
+            <div className="flex justify-center lg:mt-3 mb-4">
+              <button className="bg-accent font-bold mt-4 p-3 pr-5 pl-5 text-xl rounded-full hover:bg-secondary hover:text-accent md:p-18  ">
+                Contactar
               </button>
             </div>
           </div>
         </article>
       </section>
-      <section className="">
-        <div
-          className="w-full h-0 
-          border-7 border-solid border-secondary
-          border-l-[100vw] border-l-transparent
-          border-b-[50px] border-b-secondary,
-          "
-        ></div>
-      </section>
-      
-    </div>
+      <div
+          className="  h-0 
+          border-7 border-solid border-white
+          border-l-[97vw] border-l-transparent
+          border-b-[50px] border-b-white
+          ">
+          </div>
+    </>
   );
 }
 

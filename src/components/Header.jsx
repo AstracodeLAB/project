@@ -5,7 +5,7 @@ function Header () {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-between  mt-4 ml-7 mr-7">
+    <div className="flex items-center justify-between m-5 md:mx-16  mt-4 ml-7 mr-7">
       <a href="/">
         <img className="w-20" src={Logo} alt="logo" />
       </a>
@@ -39,12 +39,12 @@ function Header () {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-semibold text-secondary">
+            <ul className="flex flex-col items-center justify-between min-h-[250px] text-xl font-medium text-secondary">
               <li className="border-b border-accent my-8 uppercase">
                 <a href="/about">Servicios</a>
               </li>
               <li className="border-b border-accent my-8 uppercase">
-                <a href="/portfolio">Sobre AstracodeLAB</a>
+                <a href="/portfolio">Sobre Astra<span className="text-accent">code</span>LAB</a>
               </li>
               <li className="border-b border-accent my-8 uppercase">
                 <a href="/projects">Proyectos</a>
@@ -56,7 +56,7 @@ function Header () {
           </div>
         </section>
 
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex text-accent text-xl font-semibold">
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex lg:m-5 text-accent text-lg tracking-wider font-medium">
           <li > 
             <a  href="/about">Servicios</a>
           </li>
@@ -66,8 +66,8 @@ function Header () {
           <li>
             <a href="/projects">Proyectos</a>
           </li>
-          <li className='text-accent bg-primary border border-secondary pr-2 pl-2'>
-            <a href="/contact">CONTACTAR</a>
+          <li className='text-black rounded-lg bg-accent border border-secondary pr-2 pl-2 hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-accent '>
+            <a href="/contact">Contactar</a>
           </li>
         </ul>
       </nav>
