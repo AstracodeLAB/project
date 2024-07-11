@@ -61,7 +61,7 @@ function Header() {
 					<li>
 						<a href='/projects'>Proyectos</a>
 					</li>
-					<li className='text-black rounded-lg bg-accent border border-secondary pr-2 pl-2 hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-accent '>
+					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
 						<a href='/contact'>Contactar</a>
 					</li>
 				</ul>
