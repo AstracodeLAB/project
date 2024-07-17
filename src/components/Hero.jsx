@@ -23,7 +23,7 @@ function Hero() {
 							hasta el lanzamiento y mantenimiento.
 						</p>
 						<div className='flex justify-center lg:mt-3 mb-4'>
-							<button className='text-accent border border-secondary font-bold flex mt-4 p-3 pr-5 pl-5 text-xl rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out md:p-18'>
+							<button className='text-accent border border-secondary font-bold flex mt-4 p-3 pr-5 pl-5 text-xl rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out md:p-18'>
 								Contactar
 							</button>
 						</div>
