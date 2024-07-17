@@ -1,22 +1,25 @@
-import painting from "../assets/painting.jpg";
+//import painting from "../assets/painting.jpg";
+import escritora from "../assets/Escritora.jpg";
+import maquillaje from "../assets/maquillaje.png";
+import restaurante from "../assets/restaurante.jpg";
 
 const projects = [
   {
-    title: "Proyecto 1",
-    description: "Descripción del Proyecto 1",
-    image: painting,
-    url: "https://link-al-proyecto-1.com",
+    title: "Blog/Porfolio escritora",
+    description: "Web sencilla, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo",
+    image: escritora,
+    url: "http://project10102837.tilda.ws/",
   },
   {
-    title: "Proyecto 2",
-    description: "Descripción del Proyecto 2",
-    image: "/path/to/image2.jpg",
+    title: "Blog/Porfolio maquilladora",
+    description: "Web sencilla, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo",
+    image: maquillaje,
     url: "https://link-al-proyecto-2.com",
   },
   {
-    title: "Proyecto 3",
-    description: "Descripción del Proyecto 3",
-    image: "/path/to/image3.jpg",
+    title: "Web restaurante",
+    description: "En esta web se pueden aplicar funciones de reserva, correo incluso gestión de los datos desde el cliente",
+    image: restaurante,
     url: "https://link-al-proyecto-3.com",
   },
   // Aquí se van agregando más proyectos

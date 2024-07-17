@@ -16,12 +16,12 @@ function LegalNotice() {
 						son:
 					</p>
 					<ol>
-						<li>XXXXXXXX</li>
-						<li>N.I.F.: xxxxxxxxxx</li>
-						<li>Domicilio Social: XXXXXXXXXXXXXXX</li>
-						<li>Teléfono: XXXXXXXXXXXXXXXXXXX</li>
-						<li>Email: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</li>
-						<li>XXXXXXXXXXXXXXXXXXXXX, es el responsable de sus datos. (En adelante nosotros o nuestro).</li>
+						<li>Aida Blaya Balaguer</li>
+						<li>N.I.F.: 20903627P</li>
+						<li>Domicilio Social: P/Mallorca, 39. Castellón de la Plana, 12002</li>
+						<li>Teléfono: 695259535</li>
+						<li>Email: astracodelab@gmail.com</li>
+						<li>Aida Blaya Balaguer, es el responsable de sus datos. (En adelante nosotros o nuestro).</li>
 					</ol>
 					<li>2. ¿Qué datos recopilamos?</li>
 					<p>
@@ -29,7 +29,7 @@ function LegalNotice() {
 						persona física identificada o identificable, es decir cualquier información capaz de identificar a una
 						persona. Esto no incluiría los datos anónimos, ni porcentuales. Los datos de carácter personal que se
 						pudieran recabar directamente del interesado, serán tratados de forma confidencial y quedarán incorporados a
-						las correspondientes actividades del tratamiento, titularidad de XXXXXXXXXXXXXXXXXXXX.
+						las correspondientes actividades del tratamiento, titularidad de Aida Blaya Balaguer.
 					</p>
 					<p>
 						En nuestra Web podemos procesar ciertos tipos de datos personales, que podrán incluir: <br />• Datos de
@@ -62,7 +62,7 @@ function LegalNotice() {
 					<p>
 						Los usos más comunes de sus datos personales son:
 						<ol>
-							<li>- Para la formalización de un contrato entre @@@@@@@@@@NOMBRE@@@@@@@@@@ y usted.</li>
+							<li>- Para la formalización de un contrato entre Aida Blaya Balaguer y usted.</li>
 							<li> - Cuando preste su consentimiento en el tratamiento de sus datos.</li>
 							<li>- Cuando los necesitemos para dar cumplimiento a una obligación legal o regulatoria.</li>
 							<li>- Cuando sea necesario para nuestro interés legítimo o de un tercero.</li>
@@ -71,11 +71,11 @@ function LegalNotice() {
 					<br />
 					<p>
 						El Usuario podrá revocar el consentimiento prestado en cualquier momento enviando un correo a
-						@@@@@@@@@@MAIL@@@@@@@@@@ o consultando el apartado de ejercicio de derechos más adelante. A continuación
+						astracodelab@gmail.com o consultando el apartado de ejercicio de derechos más adelante. A continuación
 						adjuntamos una tabla en la que pueden consultar las formas en las que vamos a utilizar sus datos personales
 						y la legitimidad para su uso, además de saber qué tipo de datos personales vamos a tratar. Podemos procesar
 						algún dato personal por algún motivo legal adicional, por lo que si necesita detalles al respecto puede
-						enviar un correo electrónico a @@@@@@@@@@MAIL@@@@@@@@@@ Formulario Finalidad Tipo de datos Legitimidad para
+						enviar un correo electrónico a astracodelab@gmail.com Formulario Finalidad Tipo de datos Legitimidad para
 						su tratamiento Contacto o concertar una cita La finalidad es la gestión de contactos y solicitudes de
 						información recibidas vía web - Email Consentimiento del interesado (art. 6.1.a RGPD)
 					</p>
@@ -101,27 +101,27 @@ function LegalNotice() {
 					<br />
 					<li>6. Menores de edad.</li>
 					<p>
-						@@@@@@@NOMBRE@@@@@@@ no autoriza a los/las menores de 14 años a facilitar sus datos personales a través de
+					Aida Blaya Balaguer no autoriza a los/las menores de 14 años a facilitar sus datos personales a través de
 						los medios habilitados en este sitio web (cumplimentación de los formularios web para la solicitud de
 						servicios, de contacto o mediante el envío de correos electrónicos). Por tanto, las personas que faciliten
 						datos personales utilizando dichos medios manifiestan formalmente ser mayores de 14 años quedando
-						@@@@@@@@@@NOMBRE@@@@@@@@@@ eximido de cualquier responsabilidad por el incumplimiento de este requisito. Si
+						Aida Blaya Balaguer eximido de cualquier responsabilidad por el incumplimiento de este requisito. Si
 						su hijo/a de edad menor al límite de edad establecido, ha proporcionado información personal a
-						@@@@@@@NOMBRE@@@@@@@, póngase en contacto para poder solicitar el ejercicio de sus derechos aplicables. En
-						aquellos casos en los que los servicios ofrecidos por @@@@@@@NOMBRE@@@@@@@ estén destinados a menores de 14
+						Aida Blaya Balaguer, póngase en contacto para poder solicitar el ejercicio de sus derechos aplicables. En
+						aquellos casos en los que los servicios ofrecidos por Aida Blaya Balaguer estén destinados a menores de 14
 						años se habilitarán los medios para recabar la autorización de los padres o tutores legales del/de la menor
 					</p>
 					<br />
 					<li>7. Ejercicio de los Derechos de Protección de Datos:</li>
 					<p>
 						¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una comunicación al domicilio social de Ana
-						Isabel Casero Reina o dirección de correo electrónico @@@@@@@@@@MAIL@@@@@@@@@@, incluyendo en ambos casos
+						Isabel Casero Reina o dirección de correo electrónico astracodelab@gmail.com, incluyendo en ambos casos
 						fotocopia de su D.N.I u otro documento de identificación similar, para solicitar el ejercicio de los
 						siguientes derechos:{' '}
 					</p>
 					<ol>
 						<li>
-							- Acceso a sus datos personales: podrá preguntar a @@@@@@@NOMBRE@@@@@@@ si está usando sus datos
+							- Acceso a sus datos personales: podrá preguntar a Aida Blaya Balaguer si está usando sus datos
 							personales.
 						</li>
 						<li>
@@ -131,22 +131,22 @@ function LegalNotice() {
 						</li>
 						<li>
 							{' '}
-							- A solicitar la limitación del tratamiento, en este caso, solo serán conservados por @@@@@@@NOMBRE@@@@@@@
+							- A solicitar la limitación del tratamiento, en este caso, solo serán conservados por Aida Blaya Balaguer
 							para el ejercicio o defensa de reclamaciones.
 						</li>
 						<li>
 							{' '}
-							- A oponerse a su tratamiento: @@@@@@@NOMBRE@@@@@@@ dejará tratar los datos en la forma que nos indiques,
+							- A oponerse a su tratamiento: Aida Blaya Balaguer dejará tratar los datos en la forma que nos indiques,
 							salvo que por motivos legítimos o para el ejercicio o defensa de posibles reclamaciones, estos deban
 							seguir tratándose.
 						</li>
 					</ol>
 					<p>
 						A la portabilidad de los datos: en caso de que quieras que sus datos sean tratados por otra firma,
-						@@@@@@@@@@NOMBRE@@@@@@@@@@, le facilitará la portabilidad de sus datos al nuevo responsable. Podrá utilizar
+						Aida Blaya Balaguer, le facilitará la portabilidad de sus datos al nuevo responsable. Podrá utilizar
 						los modelos puestos a su disposición por la Agencia Española de Protección de Datos, para ejercer sus
 						anteriores derechos: Aquí Reclamar ante la AEPD: si considera que hay un problema con la forma en que
-						@@@@@@@@@@NOMBRE@@@@@@@@@@ está tratando sus datos, podrá dirigir sus reclamaciones a la autoridad de
+						Aida Blaya Balaguer está tratando sus datos, podrá dirigir sus reclamaciones a la autoridad de
 						control correspondiente, siendo en España, la competente para ello: Agencia Española de Protección de Datos.
 						Le solicitaremos información específica para ayudarnos a confirmar su identidad y garantizar su derecho a
 						acceder a sus datos personales (o ejercer cualquier otro de los derechos mencionados anteriormente). Esto es
@@ -179,7 +179,7 @@ function LegalNotice() {
 						personales y los tratarán de acuerdo al RGPD. Solo permitimos que dichos encargados traten sus datos para
 						fines determinados y de conformidad con nuestras instrucciones. No obstante puede solicitarnos, en
 						cumplimiento de la transparencia un listado de quienes son estas empresas que nos prestan servicios, puede
-						hacerlo al email: @@@@@@@@@@MAIL@@@@@@@@@@
+						hacerlo al email: astracodelab@gmail.com
 					</p>
           <br />
 					<li>9. Seguridad de Datos.</li>

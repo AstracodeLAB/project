@@ -26,18 +26,18 @@ function PrivacyPolicy() {
         <br></br>
         <p>
           A continuación le informamos sobre la política de protección de datos
-          de: <span className='bg-red-200'> PONER NOMBRE </span>
+          de: <span className='bg-red-200'> Aida Blaya Balaguer </span>
         </p>
         <br></br>
         <ol>
           <li>1. Responsable del tratamiento. </li>
           <p className='bg-red-200'>
-            Datos de contacto del responsable: XXXXX, con CIF: XXXXXX y
-            domicilio en: XXXXX, XXXXX xxxxxx y teléfono: xxxxxx. Email:
-            xxxxxxxx
+            Datos de contacto del responsable: Aida Blaya Balaguer, con CIF: 20903627P y
+            domicilio en: P/Mallorca, 39. Castellón de la Plana, 12002 y teléfono: 695259535. Email:
+            astracodelab@gmail.com
           </p>
           <p className='bg-red-200'>
-            xxxxx, es el responsable de sus datos. (En adelante nosotros o
+          Aida Blaya Balaguer, es el responsable de sus datos. (En adelante nosotros o
             nuestro).
           </p>
           <br></br>
@@ -51,7 +51,7 @@ function PrivacyPolicy() {
             recabar directamente del interesado, serán tratados de forma
             confidencial y quedarán incorporados a las correspondientes
             actividades del tratamiento, titularidad de
-            <span className='bg-red-200'> xxxxxxx.</span>
+            <span className='bg-red-200'> Aida Blaya Balaguer.</span>
           </p>
           <br></br>
           <p>
@@ -82,7 +82,7 @@ function PrivacyPolicy() {
             Los usos más comunes de sus datos personales son:
             <ol>
               <li className='bg-red-200'>
-                - Para la formalización de un contrato entre XXXXXX y usted.
+                - Para la formalización de un contrato entre Aida Blaya Balaguer y usted.
               </li>
               <li>
                 - Cuando preste su consentimiento en el tratamiento de sus
@@ -102,7 +102,7 @@ function PrivacyPolicy() {
         <br />
         <p className='bg-red-200'>
           El Usuario podrá revocar el consentimiento prestado en cualquier
-          momento enviando un correo a XXXXXXXXXXX consultando el apartado de
+          momento enviando un correo a astracodelab@gmail.com consultando el apartado de
           ejercicio de derechos más adelante.
         </p>
         <br />
@@ -145,18 +145,18 @@ function PrivacyPolicy() {
           <br />
            <li>6. Menores de edad. </li>
           <p className='bg-red-200'>
-            XXXXXXXXXXXnombre XXXXXX no autoriza a los/las menores de 14 años a
+            Aida Blaya Balaguer no autoriza a los/las menores de 14 años a
             facilitar sus datos personales a través de los medios habilitados en
             este sitio web (cumplimentación de los formularios web para la
             solicitud de servicios, de contacto o mediante el envío de correos
             electrónicos). Por tanto, las personas que faciliten datos personales
             utilizando dichos medios manifiestan formalmente ser mayores de 14
-            años quedando XXXXXXXXXXXXXXX  eximido de cualquier
+            años quedando Aida Blaya Balaguer  eximido de cualquier
             responsabilidad por el incumplimiento de este requisito. Si su hijo/a
             de edad menor al límite de edad establecido, ha proporcionado
-            información personal a XXXXXXXXXXXXXXXXXX, póngase en contacto
+            información personal a Aida Blaya Balaguer, póngase en contacto
             para poder solicitar el ejercicio de sus derechos aplicables. En
-            aquellos casos en los que los servicios ofrecidos por XXXXXXXXXXXXXX estén destinados a menores de 14 años se habilitarán los
+            aquellos casos en los que los servicios ofrecidos por Aida Blaya Balaguer estén destinados a menores de 14 años se habilitarán los
             medios para recabar la autorización de los padres o tutores legales
             del/de la menor
           </p> 
@@ -164,7 +164,7 @@ function PrivacyPolicy() {
           <li>7. Ejercicio de los Derechos de Protección de Datos:</li>
           <p className='bg-red-200'>
             ¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una
-            comunicación al domicilio social de XXXXX nombreXXXXXX o
+            comunicación al domicilio social de Aida Blaya Balaguer o
             dirección de correo electrónico info@clinicadentalanoreta.com,
             incluyendo en ambos casos fotocopia de su D.N.I u otro documento de
             identificación similar, para solicitar el ejercicio de los siguientes
@@ -174,16 +174,16 @@ function PrivacyPolicy() {
             olvido con respecto a los mismos. - A solicitar la limitación del
             tratamiento, en este caso, solo serán conservados por Ana Isabel
             Casero Reina para el ejercicio o defensa de reclamaciones - A oponerse
-            a su tratamiento: XXXXX nombreXXXXXX dejará tratar los datos en
+            a su tratamiento: Aida Blaya Balaguer dejará tratar los datos en
             la forma que nos indiques, salvo que por motivos legítimos o para el
             ejercicio o defensa de posibles reclamaciones, estos deban seguir
             tratándose. - A la portabilidad de los datos: en caso de que quieras
-            que sus datos sean tratados por otra firma, XXXXX nombreXXXXXX,
+            que sus datos sean tratados por otra firma, Aida Blaya Balaguer,
             le facilitará la portabilidad de sus datos al nuevo responsable. Podrá
             utilizar los modelos puestos a su disposición por la Agencia Española
             de Protección de Datos, para ejercer sus anteriores derechos: Aquí
             Reclamar ante la AEPD: si considera que hay un problema con la forma
-            en que XXXXX nombreXXXXXX está tratando sus datos, podrá dirigir
+            en que Aida Blaya Balaguer está tratando sus datos, podrá dirigir
             sus reclamaciones a la autoridad de control correspondiente, siendo en
             España, la competente para ello: Agencia Española de Protección de
             Datos. Le solicitaremos información específica para ayudarnos a
@@ -221,7 +221,7 @@ function PrivacyPolicy() {
               fines determinados y de conformidad con nuestras instrucciones. No
               obstante puede solicitarnos, en cumplimiento de la transparencia un
               listado de quienes son estas empresas que nos prestan servicios, puede
-              hacerlo al email: XXXXXX email
+              hacerlo al email: astracodelab@gmail.com
             </p>
            <li>9. Seguridad de Datos.</li>
           <p>

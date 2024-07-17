@@ -31,7 +31,7 @@ export const Services = () => {
   ];
 
   return (
-    <section id="about" className="m-5 mt-mSections md:mx-16 lg:mx-28">
+    <section  className="m-5 mt-mSections md:mx-16 lg:mx-28">
       <div className="flex flex-col items-center ">
         <div className="w-full">
           <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl">
