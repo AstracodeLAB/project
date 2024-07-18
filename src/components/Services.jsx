@@ -31,6 +31,7 @@ export const Services = () => {
   ];
 
   return (
+    <>
     <section  className="m-5 mt-mSections md:mx-16 lg:mx-28">
       <div className="flex flex-col items-center ">
         <div className="w-full">
@@ -68,6 +69,7 @@ export const Services = () => {
         </ul>
       </div>
     </section>
+    </>
   );
 };
 
