@@ -8,7 +8,7 @@ const Projects = () => {
 				<h2 className='relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl'>
 					Proyectos
 				</h2>
-				<p className='mb-8 py-4 px-2 lg:mb-1 text-justify text-gray-900 dark:text-gray-900 lg:text-xl'>Estos ejemplos pueden darte una idea para tu web</p>
+				<p className='mb-8 py-4 px-2 lg:mb-1 text-justify text-gray-900 dark:text-gray-900 lg:text-xl'>Aquí puedes consultar algunos ejemplos de nuestros diseños</p>
 			</div>
 			<div className='py-4 px-2'>
 				<div className='block md:hidden'>
