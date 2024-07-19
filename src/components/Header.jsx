@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../assets/prueba1Logo.png';
 import { useState } from 'react';
 
@@ -7,7 +8,7 @@ function Header() {
 	return (
 		<div className='flex items-center justify-between m-5 md:mx-16  mt-4 ml-7 mr-7'>
 			<a href='/'>
-				<img className='w-20' src={Logo} alt='logo' />
+				<img className='w-14' src={Logo} alt='logo' />
 			</a>
 			<nav>
 				<section className='MOBILE-MENU flex lg:hidden'>
@@ -34,18 +35,18 @@ function Header() {
 						</div>
 						<ul className='flex flex-col items-center justify-between min-h-[250px] text-xl font-medium text-secondary'>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='/about'>Servicios</a>
+								<a href='#services'>Servicios</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='/portfolio'>
+								<a href='#about-us'>
 									Sobre Astra<span className='text-accent'>code</span>LAB
 								</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='/projects'>Proyectos</a>
+								<a href='#projects'>Proyectos</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='/contact'>Contacto</a>
+								<a href='#contact'>Contacto</a>
 							</li>
 						</ul>
 					</div>
@@ -53,16 +54,16 @@ function Header() {
 
 				<ul className='DESKTOP-MENU hidden space-x-8 lg:flex lg:m-5 text-accent text-lg tracking-wider font-medium'>
 					<li>
-						<a href='/about'>Servicios</a>
+						<a href='#services'>Servicios</a>
 					</li>
 					<li>
-						<a href='/portfolio'>Sobre AstracodeLAB</a>
+						<a href='#about-us'>Sobre Astra<span className='text-accent'>code</span>LAB</a>
 					</li>
 					<li>
-						<a href='/projects'>Proyectos</a>
+						<a href='#projects'>Proyectos</a>
 					</li>
 					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
-						<a href='/contact'>Contactar</a>
+						<a href='#contact'>Contacto</a>
 					</li>
 				</ul>
 			</nav>
