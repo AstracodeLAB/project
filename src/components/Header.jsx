@@ -7,7 +7,7 @@ function Header() {
 	return (
 		<div className='flex items-center justify-between m-5 md:mx-16  mt-4 ml-7 mr-7'>
 			<a href='/'>
-				<img className='w-20' src={Logo} alt='logo' />
+				<img className='w-14' src={Logo} alt='logo' />
 			</a>
 			<nav>
 				<section className='MOBILE-MENU flex lg:hidden'>
@@ -61,7 +61,7 @@ function Header() {
 					<li>
 						<a href='/projects'>Proyectos</a>
 					</li>
-					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-secondary hover:text-primary transition-all duration-300 ease-in-out'>
+					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out'>
 						<a href='/contact'>Contactar</a>
 					</li>
 				</ul>

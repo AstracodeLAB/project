@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <section className="bg-white dark:bg-grey-600 mt-mSections m-5 rounded-lg md:grid md:grid-cols-2 md:gap-4 md:mx-16 lg:mx-28">
+    <section id="contact" className="bg-white dark:bg-grey-600 mt-mSections m-5 rounded-lg md:grid md:grid-cols-2 md:gap-4 md:mx-16 lg:mx-28">
       <div className="md:grid md:grid-cols-2 md:gap-14 md:grid-cols-subgrid md:col-span-2">
         <div className="mx-auto max-w-screen-md">
           <h2 className="relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl dark:text-black">
