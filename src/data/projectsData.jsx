@@ -6,13 +6,13 @@ import restaurante from "../assets/restaurante.jpg";
 const projects = [
   {
     title: "Blog/Porfolio escritora",
-    description: "Web sencilla, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo",
+    description: "Web sencilla, plantillas predefinidas, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo",
     image: escritora,
     url: "http://project10102837.tilda.ws/",
   },
   {
     title: "Blog/Porfolio maquilladora",
-    description: "Web sencilla, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo",
+    description: "Web diseño libre, nos adaptamos a tus necesidades para que puedas mostrar tu trabajo tal y como lo habías imaginado",
     image: maquillaje,
     url: "https://link-al-proyecto-2.com",
   },
