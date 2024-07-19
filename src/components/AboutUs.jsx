@@ -9,15 +9,15 @@ export const AboutUs = () => {
 						Sobre AstracodeLAB
 					</h2>
 				</div>
-				<div className='flex flex-col items-center py-4 px-2 md:flex-row md:justify-center md:my-2 md:gap-6 lg:gap-12'>
+				<div className='flex flex-col items-center py-4 px-2 xl:flex xl:flex-row lg:justify-center md:my-2 md:gap-6 xl:gap-12'>
 					<img
-						className='rounded-full w-5/6 my-6 shadow-xl md:w-1/2 lg:w-1/3'
+						className='rounded-full w-5/6 my-6 shadow-xl md:w-1/2 '
 						src={about}
 						alt='Tres programadoras con fondo espacial'
 					/>
 					<article
-						className='font-sans text-terciary text-m border-4 border-black rounded-2xl p-3 my-2  shadow-xl
-					 md:m-0 md:w-1/2 lg:w-1/2 lg:ml-12'
+						className='flont-sans text-terciary text-m border-4 border-black rounded-2xl p-3 my-2  shadow-xl
+					 md:m-0 xl:ml-12'
 					>
 						<p className='my-3 lg:text-xl lg:p-5'>
 							Nuestro proyecto nació de la idea de crear diseños web originales y personalizados que se adapten a las
