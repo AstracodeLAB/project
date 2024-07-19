@@ -8,7 +8,7 @@ function Header() {
 	return (
 		<div className='flex items-center justify-between m-5 md:mx-16  mt-4 ml-7 mr-7'>
 			<a href='/'>
-				<img className='w-20' src={Logo} alt='logo' />
+				<img className='w-14' src={Logo} alt='logo' />
 			</a>
 			<nav>
 				<section className='MOBILE-MENU flex lg:hidden'>
