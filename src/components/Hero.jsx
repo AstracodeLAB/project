@@ -16,7 +16,7 @@ function Hero() {
 						<h1 className='my-7 font-medium text-h1 text-hero text-center lg:text-left lg:text-h1lg min-w-fit'>
 							Diseño web
 						</h1>
-						<p className='mt-4 font-sans text-hero text-m lg:text-justify text-lg lg:text-l text-hero mb-5 lg:text-left'>
+						<p className='mt-4 font-sans text-hero text-m lg:text-justify text-lg lg:text-l mb-5 lg:text-left'>
 							En Astra<span className='text-accent'>code</span>LAB,{' '}
 							<span className='text-accent font-semibold'>diseñamos y desarrollamos</span> tu sitio web. Te
 							proporcionamos las herramientas esenciales para destacar en el mundo digital, desde el concepto inicial
