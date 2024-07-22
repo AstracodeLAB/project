@@ -14,7 +14,7 @@ const projects = [
     title: "Blog/Porfolio maquilladora",
     description: "Web diseño libre, nos adaptamos a tus necesidades para que puedas mostrar tu trabajo tal y como lo habías imaginado",
     image: maquillaje,
-    url: "https://link-al-proyecto-2.com",
+    url: "https://jazzy-sawine-757ded.netlify.app",
   },
   {
     title: "Web restaurante",
