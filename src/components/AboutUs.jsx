@@ -9,34 +9,34 @@ export const AboutUs = () => {
 						Sobre AstracodeLAB
 					</h2>
 				</div>
-				<div className='flex flex-col items-center py-4 px-2 xl:flex xl:flex-row lg:justify-center md:my-2 md:gap-6 xl:gap-12'>
+				<div className='flex flex-col items-center py-4 px-2 lg:flex lg:flex-row lg:justify-center md:my-2 md:gap-6 xl:gap-12'>
 					<img
-						className='rounded-full w-5/6 my-6 shadow-xl md:w-1/2 '
+						className='rounded-full w-5/6 my-6 shadow-xl md:w-1/2 lg:w-1/3'
 						src={about}
 						alt='Tres programadoras con fondo espacial'
 					/>
 					<article
-						className='flont-sans text-terciary text-m border-4 border-black rounded-2xl p-3 my-2  shadow-xl
-					 md:m-0 xl:ml-12'
+						className='font-sans text-terciary text-m border-4 border-black rounded-2xl p-5 my-2 shadow-xl
+					 md:m-0 md:text-xl lg:p-1'
 					>
-						<p className='my-3 lg:text-xl lg:p-5'>
+						<p className='my-3 lg:p-3'>
 							Nuestro proyecto nació de la idea de crear diseños web originales y personalizados que se adapten a las
 							necesidades de nuestros clientes.
 						</p>
-						<p className='my-3 lg:text-xl lg:p-5'>
+						<p className='my-3 lg:p-3'>
 							¿Cómo lo conseguimos? Combinando nuestras experiencias adquiridas en diferentes sectores siendo nuestro
 							nexo de unión la tecnología. Cada proyecto es una nueva aventura para nosotras.{' '}
 						</p>
-						<p className='my-3 lg:text-xl lg:p-5'>
+						<p className='my-3 lg:p-3'>
 							Valoramos la comunicación abierta y trabajamos estrechamente con nuestros clientes para asegurarnos de que
 							sus ideas se conviertan en realidad.{' '}
 						</p>
-						<p className='my-3 lg:text-xl lg:p-5'>
+						<p className='my-3 lg:p-3'>
 							Nuestros valores van más allá: como mujeres en tecnología, nos dedicamos activamente a promover la
 							diversidad en nuestro campo. Valoramos y apoyamos la inclusión de mujeres y personas de diversos
 							colectivos en todas las facetas de nuestro trabajo.{' '}
 						</p>
-						<p className='my-3 lg:text-xl lg:p-5'>
+						<p className='my-3 lg:p-3'>
 							Ya sea que necesites un sitio web, crear tu página de marca, configurar un blog o diseñar un portafolio,
 							estamos aquí para convertir tus ideas en realidad. ¡<a href="#contact" className='hover:text-accent font-bold'>Contáctanos</a> y cuéntanos tu idea!
 						</p>
