@@ -15,14 +15,26 @@ const Carousel = () => {
 	return (
 		<div className='relative w-full max-w-4xl mx-auto'>
 			<div className='overflow-hidden'>
-				<div className='flex transition-transform duration-500' style={{ transform: `translateX(-${current * 100}%)` }}>
+				<div
+					className='flex transition-transform duration-500'
+					style={{ transform: `translateX(-${current * 100}%)` }}
+				>
 					{projects.map((project, index) => (
 						<div key={index} className='min-w-full p-4'>
 							<div className='bg-black rounded-lg overflow-hidden shadow-lg mx-auto max-w-xs sm:max-w-md'>
-								<img src={project.image} alt={project.title} className='w-full h-64 object-cover rounded-t-lg' />
+								<div className='relative'>
+									<img
+										src={project.image}
+										alt={project.title}
+										className='w-full h-64 object-cover rounded-t-lg'
+									/>
+									<div className='absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent rounded-t-lg'></div>
+								</div>
 								<div className='p-4 bg-black text-white font-sans rounded-b-lg'>
 									<a href={project.url} target='_blank' rel='noopener noreferrer'>
-										<h2 className='text-xl font-bold hover:underline cursor-pointer'>{project.title}</h2>
+										<h2 className='text-xl font-bold hover:underline cursor-pointer'>
+											{project.title}
+										</h2>
 									</a>
 									<p className='mt-2'>{project.description}</p>
 								</div>
