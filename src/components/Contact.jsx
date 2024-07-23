@@ -86,7 +86,7 @@ function Contact() {
 						</button>
 						<ul className='text-xs/4 tracking-tight leading-tight mt-5'>
 							<li>
-								<b>Responsable del fichero:</b> XXXXXX <br></br>
+								<b>Responsable del fichero:</b> Aida Blaya. <br></br>
 							</li>
 							<li>
 								<b>Legitimación:</b> Consentimiento del usuario. <br></br>
