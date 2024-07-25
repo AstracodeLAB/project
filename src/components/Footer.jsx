@@ -7,10 +7,10 @@ function Footer() {
         <nav className="text-white text-center flex flex-col items-center leading-loose lg:flex-row lg:justify-around lg:items-end">
           <ul className="order-2 lg:text-left">
             <li className="hover:text-accent">
-              <Link to="/legal">Aviso legal</Link>
+              <Link to="#legal">Aviso legal</Link>
             </li>
             <li className="hover:text-accent">
-              <Link to="/privacy">Politica de privacidad</Link>
+              <Link to="#privacy">Politica de privacidad</Link>
             </li>
           </ul>
           <ul className="order-3 pt-5 lg:order-2">
@@ -23,7 +23,7 @@ function Footer() {
             <li className="hover:text-accent">
               <a href="mailto:astracodelab@gmail.com">Correo</a>
             </li>
-            <li>Linkedin</li>
+            <li><a href="https://www.linkedin.com/company/astracodelab/">Linkedin</a></li>
           </ul>
         </nav>
       </footer>
