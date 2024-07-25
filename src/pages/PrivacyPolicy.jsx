@@ -4,13 +4,15 @@ import Header from "../components/Header";
 function PrivacyPolicy() {
   return (
     <>
-    <Header />
+		<div className='mt-0 relative  bg-gradient-to-t from-[#0B1F44] m-0'>
+			<Header />
+		</div>
       <section className='m-10'>
-        <h1 className='text-xl pb-8'>Política de privacidad</h1>
+        <h1 className='text-xl font-medium pb-8'>Política de privacidad</h1>
         <p>
           Este texto legal le da detalles de cómo recopilamos y procesamos sus
           datos personales a través del uso de nuestro sitio web
-          <span className='bg-red-200'> PONER EL LINK DE LA WEB</span>,
+          <span> https://astracodelab.com/</span>,
           incluyendo cualquier información que pueda proporcionarnos a través
           del sitio cuando proporciona sus datos a través del formulario
           habilitado para tal fin.
@@ -26,21 +28,22 @@ function PrivacyPolicy() {
         <br></br>
         <p>
           A continuación le informamos sobre la política de protección de datos
-          de: <span className='bg-red-200'> Aida Blaya Balaguer </span>
+          de: <span> Aida Blaya Balaguer </span>
         </p>
         <br></br>
         <ol>
           <li>1. Responsable del tratamiento. </li>
-          <p className='bg-red-200'>
+          <p>
             Datos de contacto del responsable: Aida Blaya Balaguer, con CIF: 20903627P y
             domicilio en: P/Mallorca, 39. Castellón de la Plana, 12002 y teléfono: 695259535. Email:
             astracodelab@gmail.com
           </p>
-          <p className='bg-red-200'>
+          <p>
           Aida Blaya Balaguer, es el responsable de sus datos. (En adelante nosotros o
             nuestro).
           </p>
           <br></br>
+          
           <li>2. ¿Qué datos recopilamos?</li>
           <p>
             El Reglamento General de Protección de Datos, define los datos
@@ -51,7 +54,7 @@ function PrivacyPolicy() {
             recabar directamente del interesado, serán tratados de forma
             confidencial y quedarán incorporados a las correspondientes
             actividades del tratamiento, titularidad de
-            <span className='bg-red-200'> Aida Blaya Balaguer.</span>
+            <span> Aida Blaya Balaguer.</span>
           </p>
           <br></br>
           <p>
@@ -81,7 +84,7 @@ function PrivacyPolicy() {
           <p>
             Los usos más comunes de sus datos personales son:
             <ol>
-              <li className='bg-red-200'>
+              <li>
                 - Para la formalización de un contrato entre Aida Blaya Balaguer y usted.
               </li>
               <li>
@@ -100,19 +103,16 @@ function PrivacyPolicy() {
           </p>
         
         <br />
-        <p className='bg-red-200'>
+        <p>
           El Usuario podrá revocar el consentimiento prestado en cualquier
           momento enviando un correo a astracodelab@gmail.com consultando el apartado de
           ejercicio de derechos más adelante.
         </p>
         <br />
-        <p className='bg-red-200'>
-          A continuación adjuntamos una tabla en la que pueden consultar las
-          formas en las que vamos a utilizar sus datos personales y la
-          legitimidad para su uso, además de saber qué tipo de datos personales
-          vamos a tratar. Podemos procesar algún dato personal por algún motivo
+        <p>
+          Podemos procesar algún dato personal por algún motivo
           legal adicional, por lo que si necesita detalles al respecto puede
-          enviar un correo electrónico a  xxxxxxponer mailxxxxxxxx
+          enviar un correo electrónico a astracodelab@gmail.com
           Formulario Finalidad Tipo de datos Legitimidad para su tratamiento
           Contacto o concertar una cita La finalidad es la gestión de contactos
           y solicitudes de información recibidas vía web - Email Consentimiento
@@ -144,7 +144,7 @@ function PrivacyPolicy() {
           usuario se suscribe hasta que se dé de baja.</p>
           <br />
            <li>6. Menores de edad. </li>
-          <p className='bg-red-200'>
+          <p>
             Aida Blaya Balaguer no autoriza a los/las menores de 14 años a
             facilitar sus datos personales a través de los medios habilitados en
             este sitio web (cumplimentación de los formularios web para la
@@ -162,18 +162,16 @@ function PrivacyPolicy() {
           </p> 
           <br />
           <li>7. Ejercicio de los Derechos de Protección de Datos:</li>
-          <p className='bg-red-200'>
+          <p>
             ¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una
             comunicación al domicilio social de Aida Blaya Balaguer o
-            dirección de correo electrónico info@clinicadentalanoreta.com,
+            dirección de correo electrónico astracodelab@gmail.com,
             incluyendo en ambos casos fotocopia de su D.N.I u otro documento de
             identificación similar, para solicitar el ejercicio de los siguientes
-            derechos: - Acceso a sus datos personales: podrá preguntar a Ana
-            Isabel Casero Reina si está usando sus datos personales. - A solicitar
+            derechos: - Acceso a sus datos personales: podrá preguntar a Aida Blaya Balaguer si está usando sus datos personales. - A solicitar
             su rectificación, si no fuesen correctos, o a ejercer el derecho al
             olvido con respecto a los mismos. - A solicitar la limitación del
-            tratamiento, en este caso, solo serán conservados por Ana Isabel
-            Casero Reina para el ejercicio o defensa de reclamaciones - A oponerse
+            tratamiento, en este caso, solo serán conservados por Aida Blaya Balaguer para el ejercicio o defensa de reclamaciones - A oponerse
             a su tratamiento: Aida Blaya Balaguer dejará tratar los datos en
             la forma que nos indiques, salvo que por motivos legítimos o para el
             ejercicio o defensa de posibles reclamaciones, estos deban seguir
@@ -196,6 +194,7 @@ function PrivacyPolicy() {
             mes si su solicitud es particularmente compleja. En este caso, le
             notificaremos y le mantendremos actualizado.
           </p>
+          <br />
            <li>8. Comunicación de datos:</li>
           <p >
             prestación de servicios. Es posible que, en el desempeño de nuestro
@@ -213,7 +212,7 @@ function PrivacyPolicy() {
             </li>
 
             </ol>
-            <p className='bg-red-200'>
+            <p>
               Todos los
               encargados de tratamiento a quienes transferimos sus datos respetarán
               la seguridad de sus datos personales y los tratarán de acuerdo al
@@ -223,6 +222,7 @@ function PrivacyPolicy() {
               listado de quienes son estas empresas que nos prestan servicios, puede
               hacerlo al email: astracodelab@gmail.com
             </p>
+            <br />
            <li>9. Seguridad de Datos.</li>
           <p>
             Hemos implementado las medidas de seguridad adecuadas para evitar que

@@ -4,9 +4,12 @@ import Header from '../components/Header';
 function LegalNotice() {
 	return (
 		<>
+
+		<div className='mt-0 relative  bg-gradient-to-t from-[#0B1F44] m-0'>
 			<Header />
+		</div>
 			<section className='m-10'>
-				<h1 className='text-xl pb-8'>Aviso legal</h1>
+				<h1 className='text-xl font-medium pb-8'>Aviso legal</h1>
 				<ol>
 					<li>1. Información legal y aceptación</li>
 					<p>
@@ -23,6 +26,7 @@ function LegalNotice() {
 						<li>Email: astracodelab@gmail.com</li>
 						<li>Aida Blaya Balaguer, es el responsable de sus datos. (En adelante nosotros o nuestro).</li>
 					</ol>
+					<br />
 					<li>2. ¿Qué datos recopilamos?</li>
 					<p>
 						El Reglamento General de Protección de Datos, define los datos personales como toda información sobre una
@@ -114,8 +118,7 @@ function LegalNotice() {
 					<br />
 					<li>7. Ejercicio de los Derechos de Protección de Datos:</li>
 					<p>
-						¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una comunicación al domicilio social de Ana
-						Isabel Casero Reina o dirección de correo electrónico astracodelab@gmail.com, incluyendo en ambos casos
+						¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una comunicación al domicilio social de Aida Blaya Balaguer o dirección de correo electrónico astracodelab@gmail.com, incluyendo en ambos casos
 						fotocopia de su D.N.I u otro documento de identificación similar, para solicitar el ejercicio de los
 						siguientes derechos:{' '}
 					</p>
@@ -195,8 +198,10 @@ function LegalNotice() {
 					</p>
 				</ol>
 			</section>
+
 			<Footer />
 		</>
 	);
 }
 export default LegalNotice;
+
