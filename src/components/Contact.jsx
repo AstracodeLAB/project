@@ -31,7 +31,8 @@ function Contact() {
           </div>
 				</div>
 				<div>
-					<form id='form' data-netlify='true' className='space-y-5 pb-7 md:mt-20'>
+					<form id='form' hidden method='POST' name='contact' data-netlify='true' className='space-y-5 pb-7 md:mt-20'>
+						<input type="hidden" name='form-name'value="contact" />
 						<input
 							type='hidden'
 							name='_feedback.success.title'
