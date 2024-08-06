@@ -31,7 +31,7 @@ function Contact() {
           </div>
 				</div>
 				<div>
-					<form id='form' netlify='true' className='space-y-5 pb-7 md:mt-20'>
+					<form id='form' netlify className='space-y-5 pb-7 md:mt-20'>
 						<input
 							type='hidden'
 							name='_feedback.success.title'
