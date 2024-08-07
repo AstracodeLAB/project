@@ -1,0 +1,69 @@
+{
+	"about": {
+		"title": "About AstracodeLAB",
+		"paragraph1": "Our project was born from the idea of creating original and personalized web designs that adapt to the needs of our clients.",
+		"paragraph2": "How do we achieve it? By combining our experiences acquired in different sectors with our common bond in technology. Each project is a new adventure for us.",
+		"paragraph3": "We value open communication and work closely with our clients to ensure that their ideas become a reality.",
+		"paragraph4": "Our values go beyond: as women in technology, we are actively dedicated to promoting diversity in our field. We value and support the inclusion of women and people from diverse backgrounds in all facets of our work.",
+		"paragraph5": "Whether you need a website, create your brand page, set up a blog, or design a portfolio, we are here to turn your ideas into reality. <a href=\"#contact\" class=\"hover:text-accent font-bold\">Contact us</a> and tell us your idea!"
+	},
+	"projects": [
+		{
+			"title": "Writer's Blog/Portfolio",
+			"description": "Simple website, predefined templates, perfect for showcasing your work, getting community feedback, and promoting your work."
+		},
+		{
+			"title": "Makeup Artist's Blog/Portfolio",
+			"description": "Custom design website, tailored to your needs so you can showcase your work just as you envisioned."
+		},
+		{
+			"title": "Restaurant Website",
+			"description": "This website can include reservation functions, email, and even client-side data management."
+		}
+	],
+	"contact": {
+		"title": "Contact",
+		"description1": "At AstracodeLAB, we help turn your ideas into reality. If you need more information about our services or wish to discuss your next project, feel free to contact us via the form. We will respond as soon as possible. We look forward to working with you!",
+		"description2": "If you already know exactly what type of page you need, you can access this form where we will ask you some questions to better understand your project.",
+		"formButton": "Access the form",
+		"formPlaceholderName": "Name",
+		"formPlaceholderEmail": "name@mail.com",
+		"formPlaceholderMessage": "Leave your message...",
+		"formCheckbox": "I accept that my data is processed to manage the inquiry.",
+		"formSubmitButton": "CONTACT",
+		"privacyPolicy": "Privacy Policy",
+		"responsible": "File holder: Aida Blaya.",
+		"legitimacy": "Legitimacy: User consent.",
+		"recipients": "Recipients: Online messaging provider.",
+		"purpose": "Purpose: To respond to your inquiry.",
+		"rights": "Rights: Access, rectify, and delete data, as well as other rights, which you can consult in detail in our {{privacyPolicy}}."
+	},
+	"footer": {
+		"legal": "Legal Notice",
+		"privacy": "Privacy Policy",
+		"about": "About AstracodeLAB",
+		"email": "Email",
+		"linkedin": "LinkedIn",
+		"copyright": "© 2024 | AstracodeLAB"
+	},
+	"header": {
+		"services": "Services",
+		"about": "About AstraCodeLAB",
+		"projects": "Projects",
+		"contact": "Contact",
+		"changeLanguage": "Change Language",
+		"es": "ES",
+		"en": "EN"
+	},
+	"hero": {
+		"title": "Web Design",
+		"descriptionPart1": "At Astra",
+		"descriptionPart2": "<span class='text-accent'>code</span>",
+		"descriptionPart3": "LAB, <span class='text-accent font-semibold'>we design and develop</span> your website. We provide you with the essential tools to stand out in the digital world, from the initial concept to launch and maintenance.",
+		"contactButton": "Contact"
+	},
+	"projectsSection": {
+		"title": "Projects",
+		"description": "Here you can check out some examples of our designs"
+	}
+}
