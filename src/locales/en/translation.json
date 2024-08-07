@@ -1,42 +1,42 @@
 {
 	"about": {
 		"title": "About AstracodeLAB",
-		"paragraph1": "Our project was born from the idea of creating original and personalized web designs that adapt to the needs of our clients.",
-		"paragraph2": "How do we achieve it? By combining our experiences acquired in different sectors with our common bond in technology. Each project is a new adventure for us.",
-		"paragraph3": "We value open communication and work closely with our clients to ensure that their ideas become a reality.",
-		"paragraph4": "Our values go beyond: as women in technology, we are actively dedicated to promoting diversity in our field. We value and support the inclusion of women and people from diverse backgrounds in all facets of our work.",
-		"paragraph5": "Whether you need a website, create your brand page, set up a blog, or design a portfolio, we are here to turn your ideas into reality. <a href=\"#contact\" class=\"hover:text-accent font-bold\">Contact us</a> and tell us your idea!"
+		"paragraph1": "Our project was born from the idea of creating original and customized web designs that meet our clients' needs.",
+		"paragraph2": "How do we achieve this? By combining our experiences gained in different sectors, with technology being our common link. Each project is a new adventure for us.",
+		"paragraph3": "We value open communication and work closely with our clients to ensure their ideas come to life.",
+		"paragraph4": "Our values go beyond: as women in technology, we are actively committed to promoting diversity in our field. We value and support the inclusion of women and people from diverse backgrounds in all aspects of our work.",
+		"paragraph5": "Whether you need a website, brand page, blog setup, or portfolio design, we are here to turn your ideas into reality. <a href=\"#contact\" class=\"hover:text-accent font-bold\">Contact us</a> and tell us your idea!"
 	},
 	"projects": [
 		{
-			"title": "Writer's Blog/Portfolio",
+			"title": "Writer Blog/Portfolio",
 			"description": "Simple website, predefined templates, perfect for showcasing your work, getting community feedback, and promoting your work."
 		},
 		{
-			"title": "Makeup Artist's Blog/Portfolio",
-			"description": "Custom design website, tailored to your needs so you can showcase your work just as you envisioned."
+			"title": "Makeup Artist Blog/Portfolio",
+			"description": "Custom design website, we adapt to your needs so you can showcase your work exactly as you envisioned."
 		},
 		{
 			"title": "Restaurant Website",
-			"description": "This website can include reservation functions, email, and even client-side data management."
+			"description": "This website can include reservation functions, email communication, and even client data management."
 		}
 	],
 	"contact": {
 		"title": "Contact",
-		"description1": "At AstracodeLAB, we help turn your ideas into reality. If you need more information about our services or wish to discuss your next project, feel free to contact us via the form. We will respond as soon as possible. We look forward to working with you!",
+		"description1": "At AstracodeLAB, we help you turn your ideas into reality. If you need more information about our services or would like us to review your next project, feel free to contact us through the form. We will respond as soon as possible. We look forward to working with you!",
 		"description2": "If you already know exactly what type of page you need, you can access this form where we will ask you some questions to better understand your project.",
 		"formButton": "Access the form",
 		"formPlaceholderName": "Name",
 		"formPlaceholderEmail": "name@mail.com",
 		"formPlaceholderMessage": "Leave your message...",
-		"formCheckbox": "I accept that my data is processed to manage the inquiry.",
+		"formCheckbox": "I consent to the processing of my data to manage the inquiry.",
 		"formSubmitButton": "CONTACT",
 		"privacyPolicy": "Privacy Policy",
-		"responsible": "File holder: Aida Blaya.",
+		"responsible": "Data controller: Aida Blaya.",
 		"legitimacy": "Legitimacy: User consent.",
 		"recipients": "Recipients: Online messaging provider.",
 		"purpose": "Purpose: To respond to your inquiry.",
-		"rights": "Rights: Access, rectify, and delete data, as well as other rights, which you can consult in detail in our {{privacyPolicy}}."
+		"rights": "Rights: Access, rectify, and delete your data, as well as other rights, which you can consult in detail in our <a href=\"/privacy\">Privacy Policy</a>."
 	},
 	"footer": {
 		"legal": "Legal Notice",
@@ -48,7 +48,7 @@
 	},
 	"header": {
 		"services": "Services",
-		"about": "About AstraCodeLAB",
+		"about": "About AstracodeLAB",
 		"projects": "Projects",
 		"contact": "Contact",
 		"changeLanguage": "Change Language",
@@ -59,11 +59,180 @@
 		"title": "Web Design",
 		"descriptionPart1": "At Astra",
 		"descriptionPart2": "<span class='text-accent'>code</span>",
-		"descriptionPart3": "LAB, <span class='text-accent font-semibold'>we design and develop</span> your website. We provide you with the essential tools to stand out in the digital world, from the initial concept to launch and maintenance.",
+		"descriptionPart3": "LAB, <span class='text-accent font-semibold'>we design and develop</span> your website. We provide you with the essential tools to stand out in the digital world, from the initial concept to the launch and maintenance.",
 		"contactButton": "Contact"
 	},
 	"projectsSection": {
 		"title": "Projects",
 		"description": "Here you can check out some examples of our designs"
+	},
+	"servicesSection": {
+		"title": "Services"
+	},
+	"servicesList": [
+		{
+			"title": "Custom Web Application Development",
+			"description": "We create custom web applications tailored to your needs and goals.",
+			"bgClass": "bg-bgBlack text-secondary"
+		},
+		{
+			"title": "Design and User Experience (UX/UI)",
+			"description": "We design attractive and easy-to-use interfaces, ensuring a better user experience.",
+			"bgClass": "bg-secondary text-terciary border-4 border-bgBlack"
+		},
+		{
+			"title": "Technological Consulting",
+			"description": "We offer advice to help you find the best solution for your website.",
+			"bgClass": "bg-bgBlack text-secondary"
+		},
+		{
+			"title": "Maintenance and Ongoing Support",
+			"description": "We provide maintenance and support services to ensure your website is always running and up-to-date.",
+			"bgClass": "bg-secondary text-terciary border-4 border-bgBlack"
+		}
+	],
+	"legalNotice": {
+		"title": "Legal Notice",
+		"sections": {
+			"section1": {
+				"title": "Legal Information and Acceptance",
+				"content": "In compliance with Article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, the identifying details of the company are provided below. This website is provided to users by the entity, whose identifying details are:",
+				"items": [
+					"Aida Blaya Balaguer",
+					"N.I.F.: 20903627P",
+					"Social Address: P/Mallorca, 39. Castellón de la Plana, 12002",
+					"Phone: 695259535",
+					"Email: astracodelab@gmail.com",
+					"Aida Blaya Balaguer is the data controller. (Hereinafter referred to as 'we' or 'our')."
+				]
+			},
+			"section2": {
+				"title": "What Data Do We Collect?",
+				"content1": "The General Data Protection Regulation defines personal data as any information about an identified or identifiable natural person, i.e., any information capable of identifying a person. This does not include anonymous or statistical data. Personal data collected directly from the data subject will be treated confidentially and incorporated into the relevant processing activities, owned by Aida Blaya Balaguer.",
+				"content2": "On our website, we may process certain types of personal data, which may include:",
+				"contactData": "Contact data: email."
+			},
+			"section3": {
+				"title": "How Do We Collect Your Personal Data?",
+				"content1": "The means we use to collect personal data are:",
+				"items": [
+					"Through the form on our website, through our contact emails, or by phone when:",
+					"You request information about our services."
+				],
+				"content2": "To ensure the quality of our portal, we reserve the right to reject any registration request or suspend or cancel a previously accepted registration if we believe it does not meet these requirements or any other law or regulation. If this occurs, we will attempt to explain the reasons for our decision, but we cannot commit to doing so in all cases."
+			},
+			"section4": {
+				"title": "Purpose and Legitimacy for Using Your Data",
+				"content1": "The most common uses of your personal data are:",
+				"items": [
+					"- For the formalization of a contract between Aida Blaya Balaguer and you.",
+					"- When you consent to the processing of your data.",
+					"- When we need it to comply with a legal or regulatory obligation.",
+					"- When necessary for our legitimate interest or that of a third party."
+				],
+				"content2": "You can revoke the consent given at any time by sending an email to astracodelab@gmail.com or by consulting the section on exercising rights below. Below is a table where you can check the ways we will use your personal data and the legitimacy for its use, as well as the type of personal data we will process. We may process some personal data for additional legal reasons, so if you need details about this, you can send an email to astracodelab@gmail.com."
+			},
+			"section5": {
+				"title": "How Long Will We Keep Your Data?",
+				"content": "Data will be kept for the time necessary to fulfill the purpose for which it was collected and to determine any potential liabilities that may arise from such purpose and data processing. Applicable laws on retention periods will apply to this processing. Subscriber data by email or form: From when the user subscribes until they unsubscribe."
+			},
+			"section6": {
+				"title": "Minors",
+				"content": "Aida Blaya Balaguer does not authorize individuals under 14 years of age to provide their personal data through the means available on this website (completing web forms for service requests, contact, or sending emails). Therefore, individuals providing personal data using these means formally declare themselves to be over 14 years old, and Aida Blaya Balaguer is exempt from any responsibility for non-compliance with this requirement. If your child under the age limit has provided personal information to Aida Blaya Balaguer, please contact us to request the exercise of their applicable rights. In cases where Aida Blaya Balaguer’s services are intended for individuals under 14, we will provide means to obtain the authorization of the child's parents or legal guardians."
+			},
+			"section7": {
+				"title": "Exercising Data Protection Rights",
+				"content1": "How to exercise these rights? Users may send a communication to the social address of Aida Blaya Balaguer or email address astracodelab@gmail.com, including in both cases a copy of their ID or similar identification document, to request the exercise of the following rights:",
+				"items": [
+					"- Access to your personal data: you can ask Aida Blaya Balaguer if they are processing your personal data.",
+					"- Request rectification if the data is incorrect, or exercise the right to be forgotten regarding the data.",
+					"- Request restriction of processing, in which case the data will only be kept by Aida Blaya Balaguer for the exercise or defense of claims.",
+					"- Object to processing: Aida Blaya Balaguer will stop processing the data as you indicate, unless there are legitimate reasons or for the exercise or defense of possible claims, in which case processing must continue."
+				],
+				"content2": "Data portability: if you want your data to be processed by another entity, Aida Blaya Balaguer will facilitate the portability of your data to the new controller. You can use the models provided by the Spanish Data Protection Agency to exercise these rights. To file a complaint with the AEPD: if you believe there is an issue with the way Aida Blaya Balaguer is processing your data, you can direct your complaints to the relevant authority, which in Spain is the Spanish Data Protection Agency. We will request specific information to help confirm your identity and ensure your right to access your personal data (or exercise any other rights mentioned above). This is a security measure to ensure that personal data is not disclosed to anyone who does not have the right to receive it. All requests will be resolved within the legally specified time of one month. However, it may take us longer if your request is particularly complex. In this case, we will notify you and keep you updated."
+			},
+			"section8": {
+				"title": "Data Communication: Service Provision",
+				"content1": "In the course of our work, we may need the assistance of third parties, who will only process the data to provide the contracted service, and with whom we have the appropriate measures to ensure your rights:",
+				"items": [
+					"- Service providers who offer system and IT administration services.",
+					"- Professional advisors including lawyers, auditors, and insurers who provide consulting services for banking, legal, insurance, and accounting matters."
+				],
+				"content2": "All data processors to whom we transfer your data will respect the security of your personal data and process it in accordance with the GDPR. We only allow these processors to process your data for specific purposes and in accordance with our instructions. However, you can request, in the interest of transparency, a list of the data processors at any given time. The firm will be responsible for managing the processing of your data according to the contracts that bind them."
+			},
+			"section9": {
+				"title": "Data Security",
+				"content1": "The security of your personal data is a priority for us. We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, disclosure, alteration, or destruction. We use advanced security technologies and procedures to ensure the integrity and confidentiality of the data we collect.",
+				"content2": "Our staff is trained and authorized to handle personal data, and we have established internal security policies to protect this data. However, please note that while we take reasonable measures to protect your data, no data transmission system over the Internet or electronic storage method is completely secure, so we cannot guarantee absolute security of your data."
+			}
+		}
+	},
+	"privacyPolicy": {
+		"title": "Privacy Policy",
+		"intro": "This legal text provides details on how we collect and process your personal data through the use of our website <span>https://astracodelab.com/</span>, including any information you may provide to us through the site when you submit your data via the provided form.",
+		"consent": "By providing us with your data, we inform you that our services are not available to those who are legally unable to give consent. Therefore, when you submit forms, you guarantee that you have sufficient capacity to grant consent.",
+		"responsible": "Below we inform you about the data protection policy of: <span>Aida Blaya Balaguer</span>",
+		"sections": {
+			"1": {
+				"title": "Data Controller",
+				"details": "Contact details of the data controller: Aida Blaya Balaguer, with CIF: 20903627P and address at: P/Mallorca, 39. Castellón de la Plana, 12002 and phone: 695259535. Email: astracodelab@gmail.com. Aida Blaya Balaguer is the controller of your data. (Hereinafter us or our)."
+			},
+			"2": {
+				"title": "What data do we collect?",
+				"details": "The General Data Protection Regulation defines personal data as any information relating to an identified or identifiable natural person, i.e., any information capable of identifying a person. This does not include anonymous or aggregate data. Personal data that may be collected directly from the data subject will be treated confidentially and will be incorporated into the corresponding processing activities, owned by <span>Aida Blaya Balaguer.</span>",
+				"dataTypes": {
+					"contact": "Contact data: email and name."
+				}
+			},
+			"3": {
+				"title": "How do we collect your personal data?",
+				"details": "Through the form on our website, through our contact email, or by phone, when:<br/>• Requesting information about our services.",
+				"note": "To ensure the quality of our portal, we reserve the right to reject any registration request or suspend or cancel a previously accepted registration if we believe it does not meet these requirements or any other law or regulation. If this occurs, we will attempt to explain the reasons for our decision, but we cannot commit to doing so in all cases."
+			},
+			"4": {
+				"title": "Purpose and Legitimacy for the Use of Your Data",
+				"details": "The most common uses of your personal data are:",
+				"uses": {
+					"1": "To formalize a contract between Aida Blaya Balaguer and you.",
+					"2": "When you give consent to the processing of your data.",
+					"3": "When we need it to comply with a legal or regulatory obligation.",
+					"4": "When necessary for our legitimate interest or that of a third party."
+				}
+			},
+			"5": {
+				"title": "How long will we keep your data?",
+				"details": "They will be kept for the time necessary to fulfill the purpose for which they were collected and to determine any possible liabilities that could arise from such purpose and data processing. The provisions of the different regulations regarding the retention period, as applicable to this processing, will apply. Data from email or form subscribers: From the moment the user subscribes until they unsubscribe."
+			},
+			"6": {
+				"title": "Minors",
+				"details": "Aida Blaya Balaguer does not authorize individuals under 14 years of age to provide their personal data through the means provided on this website (completion of web forms for requesting services, contact forms, or by sending emails). Therefore, individuals providing personal data using these means formally declare that they are over 14 years old, and Aida Blaya Balaguer is exempt from any responsibility for non-compliance with this requirement. If your child under the established age limit has provided personal information to Aida Blaya Balaguer, please contact us to request the exercise of applicable rights. In cases where the services offered by Aida Blaya Balaguer are intended for minors under 14 years of age, we will establish means to collect parental or legal guardian authorization."
+			},
+			"7": {
+				"title": "Exercising Data Protection Rights",
+				"details": "How to exercise these rights? Users may send a communication to the registered office of Aida Blaya Balaguer or to the email address astracodelab@gmail.com, including in both cases a copy of their ID or similar identification document, to request the exercise of the following rights:",
+				"rights": {
+					"1": "Access to your personal data: you can ask Aida Blaya Balaguer if they are using your personal data.",
+					"2": "To request rectification if they are incorrect, or to exercise the right to be forgotten regarding the same.",
+					"3": "To request the limitation of processing, in which case, they will only be retained by Aida Blaya Balaguer for the exercise or defense of claims.",
+					"4": "To object to their processing: Aida Blaya Balaguer will cease to process the data in the manner you indicate, unless there are legitimate reasons or for the exercise or defense of possible claims, in which case the data must continue to be processed.",
+					"5": "Data portability: if you want your data to be processed by another company, Aida Blaya Balaguer will facilitate the portability of your data to the new controller.",
+					"6": "To file a complaint with the AEPD: if you believe there is a problem with how Aida Blaya Balaguer is handling your data, you may file a complaint with the relevant control authority, which in Spain is the Spanish Data Protection Agency."
+				},
+				"note": "We will request specific information to help us confirm your identity and ensure your right to access your personal data (or exercise any other of the rights mentioned above). This is a security measure to ensure that personal data is not disclosed to any person who does not have the right to receive it. All requests will be resolved within the legal period of one month. However, it may take us more than a month if your request is particularly complex. In this case, we will notify you and keep you updated."
+			},
+			"8": {
+				"title": "Data Communication",
+				"details": "In performing our work, we may need the assistance of third parties, who will only process the data to provide the contracted service and with whom we have the corresponding measures to guarantee your rights:",
+				"thirdParties": {
+					"1": "Service providers who offer system administration and information technology services.",
+					"2": "Professional advisors including lawyers, auditors, and insurers who provide banking, legal, insurance, and accounting consulting services."
+				},
+				"note": "All data processors to whom we transfer your data will respect the security of your personal data and will process it according to GDPR. We only allow such processors to process your data for specific purposes and in accordance with our instructions. However, you may request, in compliance with transparency, a list of these companies that provide us with services, by contacting us at email: astracodelab@gmail.com."
+			},
+			"9": {
+				"title": "Data Security",
+				"details": "We have implemented adequate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized manner, altered, or disclosed. Additionally, we limit access to your personal data to those employees, agents, contractors, and other third parties who have a commercial need to know such data. They will only process your personal data according to our instructions and will be subject to a duty of confidentiality. We have implemented procedures to handle any suspected breach of your personal data and will notify you and the Control Authority in case of such a breach, as regulated in GDPR Articles 33 and 34."
+			}
+		}
 	}
 }
