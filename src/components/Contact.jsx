@@ -21,23 +21,31 @@ function Contact() {
 						preguntas para conocerte mejor tu proyecto.
 					</p>
 					<div className='flex justify-center'>
-            <a href='https://forms.gle/1GAhCyVYpXPwXNKD9' target='_blank' referrerPolicy='no-referrer'>
-              <button
-              type='submit'
-              className='w-60 mt-10 py-15 px-5 text-xl font-semibold text-center text-black rounded-lg border-2 border-accent  hover:bg-black hover:text-white'
-            >
-              Acceder al formulario
-            </button></a>
-          </div>
+						<a href='https://forms.gle/1GAhCyVYpXPwXNKD9' target='_blank' referrerPolicy='no-referrer'>
+							<button
+								type='submit'
+								className='w-60 mt-10 py-15 px-5 text-xl font-semibold text-center text-black rounded-lg border-2 border-accent  hover:bg-black hover:text-white'
+							>
+								Acceder al formulario
+							</button>
+						</a>
+					</div>
 				</div>
 				<div>
-					<form id='form' hidden method='POST' name='contact' data-netlify='true' className='space-y-5 pb-7 md:mt-20'>
-						<input type="hidden" name='form-name'value="contact" />
-						<input
-							type='hidden'
-							name='_feedback.success.title'
-							value='Gracias! En seguida nos pondremos en contacto contigo'
-						/>
+					<form
+						id='form'
+						method='POST'
+						name='contact'
+						data-netlify='true'
+						data-netlify-honeypot='bot-field'
+						className='space-y-5 pb-7 md:mt-20'
+					>
+						<input type='hidden' name='form-name' value='contact' />
+						<div hidden>
+							<label>
+								Don't fill this out: <input name='bot-field' />
+							</label>
+						</div>
 						<div>
 							<input
 								type='text'
