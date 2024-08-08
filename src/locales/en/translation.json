@@ -69,28 +69,24 @@
 	"servicesSection": {
 		"title": "Services"
 	},
-	"servicesList": [
-		{
+	"services": {
+		"webDevelopment": {
 			"title": "Custom Web Application Development",
-			"description": "We create custom web applications tailored to your needs and goals.",
-			"bgClass": "bg-bgBlack text-secondary"
+			"description": "We create custom web applications tailored to your needs and goals."
 		},
-		{
-			"title": "Design and User Experience (UX/UI)",
-			"description": "We design attractive and easy-to-use interfaces, ensuring a better user experience.",
-			"bgClass": "bg-secondary text-terciary border-4 border-bgBlack"
+		"uxUiDesign": {
+			"title": "User Experience (UX/UI) Design",
+			"description": "We design attractive and easy-to-use interfaces, ensuring a better user experience."
 		},
-		{
-			"title": "Technological Consulting",
-			"description": "We offer advice to help you find the best solution for your website.",
-			"bgClass": "bg-bgBlack text-secondary"
+		"consulting": {
+			"title": "Technology Consulting",
+			"description": "We provide advice to help you find the best solution for your website."
 		},
-		{
-			"title": "Maintenance and Ongoing Support",
-			"description": "We provide maintenance and support services to ensure your website is always running and up-to-date.",
-			"bgClass": "bg-secondary text-terciary border-4 border-bgBlack"
+		"maintenance": {
+			"title": "Ongoing Maintenance and Support",
+			"description": "We provide maintenance and support services to ensure your website is always up and running."
 		}
-	],
+	},
 	"legalNotice": {
 		"title": "Legal Notice",
 		"sections": {
