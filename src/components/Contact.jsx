@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 function Contact() {
+	const { t } = useTranslation();
+
 	return (
 		<section
 			id='contact'
@@ -9,24 +11,21 @@ function Contact() {
 			<div className='md:grid md:grid-cols-2 md:gap-14 md:grid-cols-subgrid md:col-span-2'>
 				<div className='mx-auto max-w-screen-md'>
 					<h2 className='relative z-10 bg-gradient-to-r from-accent via-lime-200 to-transparent font-sans font-medium text-3xl px-2 mb-5 rounded md:inline-block md:text-4xl dark:text-black'>
-						Contacto
+						{t('contact.title')}
 					</h2>
 					<p className='mb-8 py-4 px-2 lg:mb-16 text-justify text-terciary text-gray-900 dark:text-gray-900 lg:text-xl'>
-						En AstracodeLAB, te ayudamos a convertir tus ideas en realidad. Si necesitas más información sobre nuestros
-						servicios o deseas que analicemos tu próximo proyecto, no dudes en ponerte en contacto con nosotr@s a través
-						del formulario. Te responderemos lo antes posible. ¡Estamos deseando trabajar contigo!
+						{t('contact.description1')}
 					</p>
 					<p className='text-justify text-terciary text-gray-900 dark:text-gray-900 lg:text-xl'>
-						Si ya sabes exactamente qué tipo de página necesitas, puedes acceder a este formulario donde te haremos unas
-						preguntas para conocerte mejor tu proyecto.
+						{t('contact.description2')}
 					</p>
 					<div className='flex justify-center'>
-						<a href='https://forms.gle/1GAhCyVYpXPwXNKD9' target='_blank' referrerPolicy='no-referrer'>
+						<a href='https://forms.gle/1GAhCyVYpXPwXNKD9' target='_blank' rel='noopener noreferrer'>
 							<button
 								type='submit'
-								className='w-60 mt-10 py-15 px-5 text-xl font-semibold text-center text-black rounded-lg border-2 border-accent  hover:bg-black hover:text-white'
+								className='w-60 mt-10 py-15 px-5 text-xl font-semibold text-center text-black rounded-lg border-2 border-accent hover:bg-black hover:text-white'
 							>
-								Acceder al formulario
+								{t('contact.formButton')}
 							</button>
 						</a>
 					</div>
@@ -43,7 +42,7 @@ function Contact() {
 						<input type='hidden' name='form-name' value='contact' />
 						<div hidden>
 							<label>
-								Don't fill this out: <input name='bot-field' />
+								{t('contact.hiddenFieldLabel')}: <input name='bot-field' />
 							</label>
 						</div>
 						<div>
@@ -51,8 +50,8 @@ function Contact() {
 								type='text'
 								id='name'
 								name='name'
-								placeholder='Nombre'
-								required=''
+								placeholder={t('contact.formPlaceholderName')}
+								required
 								className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-accent-500 focus:border-accent-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-accent-500 dark:focus:border-accent-500 dark:shadow-sm-light'
 							/>
 						</div>
@@ -61,8 +60,8 @@ function Contact() {
 								type='email'
 								id='email'
 								name='email'
-								className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-accent-500 focus:border-accent-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-300  dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-accent-500 dark:focus:border-accent-500 dark:shadow-sm-light'
-								placeholder=' nombre@mail.com'
+								className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-accent-500 focus:border-accent-500 block w-full p-2.5 dark:bg-gray-50 dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-accent-500 dark:focus:border-accent-500 dark:shadow-sm-light'
+								placeholder={t('contact.formPlaceholderEmail')}
 								required
 							/>
 						</div>
@@ -71,8 +70,8 @@ function Contact() {
 								id='message'
 								name='message'
 								rows='6'
-								className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-accent-500 focus:border-accent-500 dark:bg-gray-50 dark:border-gray-300  dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-accent-500 dark:focus:border-accent-500'
-								placeholder='Deja tu mensaje...'
+								className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-accent-500 focus:border-accent-500 dark:bg-gray-50 dark:border-gray-300 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-accent-500 dark:focus:border-accent-500'
+								placeholder={t('contact.formPlaceholderMessage')}
 							></textarea>
 						</div>
 						<div className='flex items-center'>
@@ -81,37 +80,34 @@ function Contact() {
 								required
 								type='checkbox'
 								value=''
-								className='w-4 h-4  bg-gray-100 border-gray-300 rounded focus:ring-secondary dark:focus:ring-accent dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600'
+								className='w-4 h-4 bg-gray-100 border-gray-300 rounded focus:ring-secondary dark:focus:ring-accent dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600'
 							/>
 							<label htmlFor='link-checkbox' className='ms-2 text-xs'>
-								Acepto que se traten mis datos para gestionar la consulta.
+								{t('contact.formCheckbox')}
 							</label>
 						</div>
 						<button
 							type='submit'
-							className=' min-w-full py-3 px-7 text-xl font-semibold text-center text-black rounded-lg bg-accent sm:w-fit hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-accent dark:bg-accent dark:hover:bg-black dark:hover:text-white dark:focus:ring-accent '
+							className='min-w-full py-3 px-7 text-xl font-semibold text-center text-black rounded-lg bg-accent sm:w-fit hover:bg-black hover:text-white focus:ring-4 focus:outline-none focus:ring-accent dark:bg-accent dark:hover:bg-black dark:hover:text-white dark:focus:ring-accent '
 						>
-							CONTACTAR
+							{t('contact.formSubmitButton')}
 						</button>
 						<ul className='text-xs/4 tracking-tight leading-tight mt-5'>
 							<li>
-								<b>Responsable del fichero:</b> Aida Blaya. <br></br>
+								<b>{t('contact.responsible')}</b> <br />
 							</li>
 							<li>
-								<b>Legitimación:</b> Consentimiento del usuario. <br></br>
+								<b>{t('contact.legitimacy')}</b> <br />
 							</li>
 							<li>
-								<b>Destinatarios:</b> Proveedor mensajería online.<br></br>
+								<b>{t('contact.recipients')}</b> <br />
 							</li>
 							<li>
-								<b>Finalidad:</b> Responder a su consulta.<br></br>
+								<b>{t('contact.purpose')}</b> <br />
 							</li>
 							<li>
-								<b>Derechos:</b> Acceder, rectificar y suprimir los datos, así como otros derechos, que puede consultar
-								de forma detallada en nuestra{' '}
-								<Link to='/privacy' className='hover:text-blue-500'>
-									Política de Privacidad.
-								</Link>
+								{/* <b>{t('contact.rights')}</b> <br /> */}
+								<span className='font-bold' dangerouslySetInnerHTML={{ __html: t('contact.rights') }} />
 							</li>
 						</ul>
 					</form>
@@ -120,4 +116,5 @@ function Contact() {
 		</section>
 	);
 }
+
 export default Contact;
