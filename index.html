@@ -24,17 +24,12 @@
 	</head>
 	<body>
 		<div id="root"></div>
+		<!-- Hidden form for Netlify to detect -->
+		<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+			<input type="text" name="name" />
+			<input type="email" name="email" />
+			<textarea name="message"></textarea>
+		</form>
 		<script type="module" src="/src/main.jsx"></script>
 	</body>
 </html>
-
-<style>
-	#root {
-		margin: 0px;
-		padding: 0px;
-		list-style: none;
-		text-decoration: none;
-		border: none;
-		outline: none;
-	}
-</style>

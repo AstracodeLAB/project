@@ -1,11 +1,18 @@
 import Logo from '../assets/prueba1Logo.png';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
+	const { t, i18n } = useTranslation();
+
+	const changeLanguage = (lng) => {
+		i18n.changeLanguage(lng);
+	};
+
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
 	return (
-		<div className='flex items-center justify-between m-5 md:mx-16  mt-4 ml-7 mr-7'>
+		<header className='flex items-center justify-between m-5 md:mx-16 mt-4 ml-7 mr-7'>
 			<a href='/'>
 				<img className='w-14' src={Logo} alt='logo' />
 			</a>
@@ -34,18 +41,30 @@ function Header() {
 						</div>
 						<ul className='flex flex-col items-center justify-between min-h-[250px] text-xl font-medium text-secondary'>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='#services'>Servicios</a>
+								<a href='#services'>{t('header.services')}</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='#about-us'>
-									Sobre Astra<span className='text-accent'>code</span>LAB
-								</a>
+								<a href='#about-us'>{t('header.about')}</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='#projects'>Proyectos</a>
+								<a href='#projects'>{t('header.projects')}</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
-								<a href='#contact'>Contacto</a>
+								<a href='#contact'>{t('header.contact')}</a>
+							</li>
+							<li className='flex space-x-2 mt-4'>
+								<button
+									onClick={() => changeLanguage('es')}
+									className='px-2 py-1 text-sm font-medium text-secondary bg-white bg-opacity-10 rounded hover:bg-gray-200 hover:text-bgBlueDark'
+								>
+									{t('header.es')}
+								</button>
+								<button
+									onClick={() => changeLanguage('en')}
+									className='px-2 py-1 text-sm font-medium text-secondary bg-white bg-opacity-10 rounded hover:bg-gray-200 hover:text-bgBlueDark'
+								>
+									{t('header.en')}
+								</button>
 							</li>
 						</ul>
 					</div>
@@ -53,18 +72,30 @@ function Header() {
 
 				<ul className='DESKTOP-MENU hidden space-x-8 lg:flex lg:m-5 text-accent text-lg tracking-wider font-medium'>
 					<li>
-						<a href='#services'>Servicios</a>
+						<a href='#services'>{t('header.services')}</a>
 					</li>
 					<li>
-						<a href='#about-us'>
-							Sobre Astra<span className='text-accent'>code</span>LAB
-						</a>
+						<a href='#about-us'>{t('header.about')}</a>
 					</li>
 					<li>
-						<a href='#projects'>Proyectos</a>
+						<a href='#projects'>{t('header.projects')}</a>
 					</li>
 					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out'>
-						<a href='#contact'>Contacto</a>
+						<a href='#contact'>{t('header.contact')}</a>
+					</li>
+					<li className='flex space-x-2'>
+						<button
+							onClick={() => changeLanguage('es')}
+							className='px-2 py-1 text-sm font-medium text-secondary bg-white bg-opacity-10 rounded hover:bg-gray-200 hover:text-bgBlueDark'
+						>
+							{t('header.es')}
+						</button>
+						<button
+							onClick={() => changeLanguage('en')}
+							className='px-2 py-1 text-sm font-medium text-secondary bg-white bg-opacity-10 rounded hover:bg-gray-200 hover:text-bgBlueDark'
+						>
+							{t('header.en')}
+						</button>
 					</li>
 				</ul>
 			</nav>
@@ -87,7 +118,7 @@ function Header() {
           align-items: center;
         }
       `}</style>
-		</div>
+		</header>
 	);
 }
 

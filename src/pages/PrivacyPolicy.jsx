@@ -1,247 +1,82 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import { useTranslation } from 'react-i18next';
 
-function PrivacyPolicy() {
-  return (
-    <>
-		<div className='mt-0 relative  bg-gradient-to-t from-[#0B1F44] m-0'>
-			<Header />
-		</div>
-      <section className='m-10'>
-        <h1 className='text-xl font-medium pb-8'>Política de privacidad</h1>
-        <p>
-          Este texto legal le da detalles de cómo recopilamos y procesamos sus
-          datos personales a través del uso de nuestro sitio web
-          <span> https://astracodelab.com/</span>,
-          incluyendo cualquier información que pueda proporcionarnos a través
-          del sitio cuando proporciona sus datos a través del formulario
-          habilitado para tal fin.
-        </p>
-        <br></br>
-        <p>
-          Al proporcionarnos los datos, le informamos que nuestros servicios no
-          son posibles para aquellas personas que la normativa les impide
-          prestar consentimiento, por lo que cuando nos remite los formularios
-          nos garantiza que tiene la capacidad suficiente para otorgar
-          consentimiento.
-        </p>
-        <br></br>
-        <p>
-          A continuación le informamos sobre la política de protección de datos
-          de: <span> Aida Blaya Balaguer </span>
-        </p>
-        <br></br>
-        <ol>
-          <li>1. Responsable del tratamiento. </li>
-          <p>
-            Datos de contacto del responsable: Aida Blaya Balaguer, con CIF: 20903627P y
-            domicilio en: P/Mallorca, 39. Castellón de la Plana, 12002 y teléfono: 695259535. Email:
-            astracodelab@gmail.com
-          </p>
-          <p>
-          Aida Blaya Balaguer, es el responsable de sus datos. (En adelante nosotros o
-            nuestro).
-          </p>
-          <br></br>
-          
-          <li>2. ¿Qué datos recopilamos?</li>
-          <p>
-            El Reglamento General de Protección de Datos, define los datos
-            personales como toda información sobre una persona física
-            identificada o identificable, es decir cualquier información capaz
-            de identificar a una persona. Esto no incluiría los datos anónimos,
-            ni porcentuales. Los datos de carácter personal que se pudieran
-            recabar directamente del interesado, serán tratados de forma
-            confidencial y quedarán incorporados a las correspondientes
-            actividades del tratamiento, titularidad de
-            <span> Aida Blaya Balaguer.</span>
-          </p>
-          <br></br>
-          <p>
-            En nuestra Web podemos procesar ciertos tipos de datos personales,
-            que podrán incluir:
-            <ul>
-              <li>• Datos de contacto: email y nombre.</li>
-            </ul>
-          </p>
-          <br></br>
-          <li> 3. ¿Cómo recopilamos sus datos personales? </li>
-          <p>
-            A través del formulario de nuestra página web, a través de nuestros
-            email de contacto o por teléfono, cuando:
-            <br></br>• Solicita información de nuestros servicios
-          </p>
-          <br></br>
-          <p>
-            Para asegurar la calidad de nuestro portal, tenemos que reservamos
-            el derecho a rechazar cualquier solicitud de registro o bien de
-            suspender o cancelar un registro previamente aceptado si entendemos
-            que no cumple estos requisitos o cualquier otra ley o norma. Si esto
-            ocurre, intentaremos exponer los motivos de nuestra decisión, pero
-            no nos podemos comprometer a hacerlo en todos los casos.
-          </p>
-          <li> 4. Finalidad y legitimidad para el uso de sus datos.</li>
-          <p>
-            Los usos más comunes de sus datos personales son:
-            <ol>
-              <li>
-                - Para la formalización de un contrato entre Aida Blaya Balaguer y usted.
-              </li>
-              <li>
-                - Cuando preste su consentimiento en el tratamiento de sus
-                datos.
-              </li>
-              <li>
-                - Cuando los necesitemos para dar cumplimiento a una obligación
-                legal o regulatoria.
-              </li>
-              <li>
-                - Cuando sea necesario para nuestro interés legítimo o de un
-                tercero.
-              </li>
-            </ol>
-          </p>
-        
-        <br />
-        <p>
-          El Usuario podrá revocar el consentimiento prestado en cualquier
-          momento enviando un correo a astracodelab@gmail.com consultando el apartado de
-          ejercicio de derechos más adelante.
-        </p>
-        <br />
-        <p>
-          Podemos procesar algún dato personal por algún motivo
-          legal adicional, por lo que si necesita detalles al respecto puede
-          enviar un correo electrónico a astracodelab@gmail.com
-          Formulario Finalidad Tipo de datos Legitimidad para su tratamiento
-          Contacto o concertar una cita La finalidad es la gestión de contactos
-          y solicitudes de información recibidas vía web - Email Consentimiento
-          del interesado (art. 6.1.a RGPD)
-        </p>
-        <br />
-        <p>
-          Medidas precontractuales (art. 6.1.b RGPD) Tratamiento es necesario
-          para la satisfacción de intereses legítimos perseguidos por el
-          responsable del tratamiento (art. 6.1f RGPD)
-        </p>
-        <br />
-        <p>
-          Finalidad: sólo utilizaremos sus datos para los fines para los que los
-          recopilamos, a menos que consideremos razonablemente que debemos
-          usarlo para otro motivo, notificándoselo previamente para que esté
-          informado del motivo legal de su procesamiento y siempre y cuando el
-          fin sea compatible con el propósito original.
-        </p>
-          <br />
-        <li> 5. ¿Durante cuánto tiempo conservaremos sus datos?</li> 
-          <p>Se conservarán durante el tiempo
-          necesario para cumplir con la finalidad para la que se recabaron y
-          para determinar las posibles responsabilidades que se pudieran derivar
-          de dicha finalidad y del tratamiento de los datos. Será de aplicación
-          lo dispuesto en las diferentes normativas respecto al plazo de
-          conservación, en lo que resulte de aplicación al presente tratamiento.
-          Datos de los suscriptores por e-mail o formulario: Desde que el
-          usuario se suscribe hasta que se dé de baja.</p>
-          <br />
-           <li>6. Menores de edad. </li>
-          <p>
-            Aida Blaya Balaguer no autoriza a los/las menores de 14 años a
-            facilitar sus datos personales a través de los medios habilitados en
-            este sitio web (cumplimentación de los formularios web para la
-            solicitud de servicios, de contacto o mediante el envío de correos
-            electrónicos). Por tanto, las personas que faciliten datos personales
-            utilizando dichos medios manifiestan formalmente ser mayores de 14
-            años quedando Aida Blaya Balaguer  eximido de cualquier
-            responsabilidad por el incumplimiento de este requisito. Si su hijo/a
-            de edad menor al límite de edad establecido, ha proporcionado
-            información personal a Aida Blaya Balaguer, póngase en contacto
-            para poder solicitar el ejercicio de sus derechos aplicables. En
-            aquellos casos en los que los servicios ofrecidos por Aida Blaya Balaguer estén destinados a menores de 14 años se habilitarán los
-            medios para recabar la autorización de los padres o tutores legales
-            del/de la menor
-          </p> 
-          <br />
-          <li>7. Ejercicio de los Derechos de Protección de Datos:</li>
-          <p>
-            ¿Cómo ejercer dichos derechos? Los usuarios podrán dirigir una
-            comunicación al domicilio social de Aida Blaya Balaguer o
-            dirección de correo electrónico astracodelab@gmail.com,
-            incluyendo en ambos casos fotocopia de su D.N.I u otro documento de
-            identificación similar, para solicitar el ejercicio de los siguientes
-            derechos: - Acceso a sus datos personales: podrá preguntar a Aida Blaya Balaguer si está usando sus datos personales. - A solicitar
-            su rectificación, si no fuesen correctos, o a ejercer el derecho al
-            olvido con respecto a los mismos. - A solicitar la limitación del
-            tratamiento, en este caso, solo serán conservados por Aida Blaya Balaguer para el ejercicio o defensa de reclamaciones - A oponerse
-            a su tratamiento: Aida Blaya Balaguer dejará tratar los datos en
-            la forma que nos indiques, salvo que por motivos legítimos o para el
-            ejercicio o defensa de posibles reclamaciones, estos deban seguir
-            tratándose. - A la portabilidad de los datos: en caso de que quieras
-            que sus datos sean tratados por otra firma, Aida Blaya Balaguer,
-            le facilitará la portabilidad de sus datos al nuevo responsable. Podrá
-            utilizar los modelos puestos a su disposición por la Agencia Española
-            de Protección de Datos, para ejercer sus anteriores derechos: Aquí
-            Reclamar ante la AEPD: si considera que hay un problema con la forma
-            en que Aida Blaya Balaguer está tratando sus datos, podrá dirigir
-            sus reclamaciones a la autoridad de control correspondiente, siendo en
-            España, la competente para ello: Agencia Española de Protección de
-            Datos. Le solicitaremos información específica para ayudarnos a
-            confirmar su identidad y garantizar su derecho a acceder a sus datos
-            personales (o ejercer cualquier otro de los derechos mencionados
-            anteriormente). Esto es una medida de seguridad para garantizar que
-            los datos personales no se revelen a ninguna persona que no tenga
-            derecho a recibirlos. Todas las solicitudes las solventaremos en el
-            plazo legal indicado de un mes. No obstante, puede llevarnos más de un
-            mes si su solicitud es particularmente compleja. En este caso, le
-            notificaremos y le mantendremos actualizado.
-          </p>
-          <br />
-           <li>8. Comunicación de datos:</li>
-          <p >
-            prestación de servicios. Es posible que, en el desempeño de nuestro
-            trabajo, necesitemos de la ayuda de terceros, que solo trataran los
-            datos para prestar el servicio contratado, y con los que disponemos de
-            las correspondientes medidas para garantizar sus derechos: </p>
-            <ol>
-               <li>              
-            -Proveedores de servicios que brindan servicios de administración de
-            sistemas y tecnología de la información.</li>
-            <li>
-              - Asesores profesionales que
-              incluyen abogados, auditores y aseguradores que brindan servicios de
-              consultoría bancarios, legales, de seguros y de contabilidad.
-            </li>
+const PrivacyPolicy = () => {
+	const { t } = useTranslation();
 
-            </ol>
-            <p>
-              Todos los
-              encargados de tratamiento a quienes transferimos sus datos respetarán
-              la seguridad de sus datos personales y los tratarán de acuerdo al
-              RGPD. Solo permitimos que dichos encargados traten sus datos para
-              fines determinados y de conformidad con nuestras instrucciones. No
-              obstante puede solicitarnos, en cumplimiento de la transparencia un
-              listado de quienes son estas empresas que nos prestan servicios, puede
-              hacerlo al email: astracodelab@gmail.com
-            </p>
-            <br />
-           <li>9. Seguridad de Datos.</li>
-          <p>
-            Hemos implementado las medidas de seguridad adecuadas para evitar que
-            sus datos personales se pierdan accidentalmente, se usen o accedan de
-            forma no autorizada, se modifiquen o divulguen. Además, limitamos el
-            acceso a sus datos personales a aquellos empleados, agentes
-            contratistas y otros terceros que tengan una necesidad comercial de
-            conocer dichos datos. Solo procesarán sus datos personales según
-            nuestras instrucciones y estarán sujetos a un deber de
-            confidencialidad. Hemos implementado procedimientos para tratar
-            cualquier sospecha de violación de sus datos personales y se lo
-            notificaremos a usted y a la Autoridad de Control en caso de que
-            ocurriera, tal como queda regulado en el RGPD en sus artículos 33 y
-            34, una brecha de seguridad.
-          </p>        
-        </ol>
-      </section>
-      <Footer />
-    </>
-  );
-}
+	return (
+		<>
+			<div className='mt-0 relative  bg-gradient-to-t from-[#0B1F44] m-0'>
+				<Header />
+			</div>
+
+			<section className='m-10'>
+				<h1 className='text-xl font-medium pb-8'>{t('privacyPolicy.title')}</h1>
+				<p dangerouslySetInnerHTML={{ __html: t('privacyPolicy.intro') }}></p>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.1.title')}</h2>
+					<p>{t('privacyPolicy.sections.1.details')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.2.title')}</h2>
+					<p dangerouslySetInnerHTML={{ __html: t('privacyPolicy.sections.2.details')}}></p>
+					<ul>
+						<li>{t('privacyPolicy.sections.2.dataTypes.contact')}</li>
+					</ul>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.3.title')}</h2>
+					<p dangerouslySetInnerHTML={{ __html: t('privacyPolicy.sections.3.details')}} ></p>
+					<p>{t('privacyPolicy.sections.3.note')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.4.title')}</h2>
+					<ul>
+						<li>{t('privacyPolicy.sections.4.uses.1')}</li>
+						<li>{t('privacyPolicy.sections.4.uses.2')}</li>
+						<li>{t('privacyPolicy.sections.4.uses.3')}</li>
+						<li>{t('privacyPolicy.sections.4.uses.4')}</li>
+					</ul>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.5.title')}</h2>
+					<p>{t('privacyPolicy.sections.5.details')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.6.title')}</h2>
+					<p>{t('privacyPolicy.sections.6.details')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.7.title')}</h2>
+					<p>{t('privacyPolicy.sections.7.details')}</p>
+					<ul>
+						<li>{t('privacyPolicy.sections.7.rights.1')}</li>
+						<li>{t('privacyPolicy.sections.7.rights.2')}</li>
+						<li>{t('privacyPolicy.sections.7.rights.3')}</li>
+						<li>{t('privacyPolicy.sections.7.rights.4')}</li>
+						<li>{t('privacyPolicy.sections.7.rights.5')}</li>
+						<li>{t('privacyPolicy.sections.7.rights.6')}</li>
+					</ul>
+					<p>{t('privacyPolicy.sections.7.note')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.8.title')}</h2>
+					<p>{t('privacyPolicy.sections.8.details')}</p>
+					<ul>
+						<li>{t('privacyPolicy.sections.8.thirdParties.1')}</li>
+						<li>{t('privacyPolicy.sections.8.thirdParties.2')}</li>
+					</ul>
+					<p>{t('privacyPolicy.sections.8.note')}</p>
+				</section>
+				<section className='mt-8'>
+					<h2>{t('privacyPolicy.sections.9.title')}</h2>
+					<p>{t('privacyPolicy.sections.9.details')}</p>
+				</section>
+        </section>
+        <Footer />
+		</>
+	);
+};
+
 export default PrivacyPolicy;
