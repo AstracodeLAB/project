@@ -50,6 +50,9 @@ function Header() {
 								<a href='#projects'>{t('header.projects')}</a>
 							</li>
 							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
+								<a href='#technologies'>{t('header.technologies')}</a>
+							</li>
+							<li className='border-b border-accent my-8 uppercase transition duration-300 ease-in-out hover:border-none hover:text-accent'>
 								<a href='#contact'>{t('header.contact')}</a>
 							</li>
 							<li className='flex space-x-2 mt-4'>
@@ -79,6 +82,9 @@ function Header() {
 					</li>
 					<li>
 						<a href='#projects'>{t('header.projects')}</a>
+					</li>
+					<li>
+						<a href='#technologies'>{t('header.technologies')}</a>
 					</li>
 					<li className='text-accent border border-secondary pr-2 pl-2 rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out'>
 						<a href='#contact'>{t('header.contact')}</a>
