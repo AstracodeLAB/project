@@ -16,7 +16,9 @@ const Technologies = () => {
 				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center'>
 					{technologiesData.map((tech, index) => (
 						<div key={index} className='flex flex-col items-center space-y-4'>
-							<img src={tech.logo} alt={`${tech.name} logo`} className='w-20 h-20 object-contain' />
+							<a href={tech.link} target='_blank' rel='noopener noreferrer'>
+								<img src={tech.logo} alt={`${tech.name} logo`} className='w-20 h-20 object-contain' />
+							</a>
 							<p className='text-lg font-medium'>{tech.name}</p>
 						</div>
 					))}

@@ -7,13 +7,13 @@ import astro from '../assets/astro.png';
 import ts from '../assets/ts.png';
 
 const technologies = [
-    { name: 'HTML', logo: html },
-	{ name: 'CSS', logo: css },
-	{ name: 'JavaScript', logo: js },
-	{ name: 'React', logo: react },
-	{ name: 'Tailwind CSS', logo: tw },
-	{ name: 'Astro', logo: astro },
-	{ name: 'TypeScript', logo: ts },
-]
+	{ name: 'HTML', logo: html, link: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
+	{ name: 'CSS', logo: css, link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
+	{ name: 'JavaScript', logo: js, link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+	{ name: 'React', logo: react, link: 'https://reactjs.org/' },
+	{ name: 'Tailwind CSS', logo: tw, link: 'https://tailwindcss.com/' },
+	{ name: 'Astro', logo: astro, link: 'https://astro.build/' },
+	{ name: 'TypeScript', logo: ts, link: 'https://www.typescriptlang.org/' },
+];
 
 export default technologies;
