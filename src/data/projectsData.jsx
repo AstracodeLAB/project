@@ -10,6 +10,7 @@ const projects = [
 			'Web sencilla, plantillas predefinidas, perfecta para mostrar tus obras, conseguir feedback de la comunidad y promocionar tu trabajo',
 		image: escritora,
 		url: 'http://project10102837.tilda.ws/',
+		technologies: ['Tilda'],
 	},
 	{
 		title: 'Blog/Porfolio maquilladora',
@@ -17,6 +18,7 @@ const projects = [
 			'Web diseño libre, nos adaptamos a tus necesidades para que puedas mostrar tu trabajo tal y como lo habías imaginado',
 		image: maquillaje,
 		url: 'https://jazzy-sawine-757ded.netlify.app',
+		technologies: ['React', 'Tailwind', 'Netlify'],
 	},
 	{
 		title: 'Web restaurante',
@@ -24,6 +26,7 @@ const projects = [
 			'En esta web se pueden aplicar funciones de reserva, correo incluso gestión de los datos desde el cliente',
 		image: restaurante,
 		url: 'https://restaurant-frontend-gemy.onrender.com/',
+		technologies: ['React', 'Tailwind', 'Strapi'],
 	},
 	// Aquí se van agregando más proyectos
 ];
