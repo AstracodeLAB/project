@@ -21,6 +21,7 @@
 			"description": "This website can include reservation functions, email communication, and even client data management."
 		}
 	],
+
 	"contact": {
 		"title": "Contact",
 		"description1": "At AstracodeLAB, we help you turn your ideas into reality. If you need more information about our services or would like us to review your next project, feel free to contact us through the form. We will respond as soon as possible. We look forward to working with you!",
@@ -69,6 +70,10 @@
 	},
 	"servicesSection": {
 		"title": "Services"
+	},
+	"technologiesSection": {
+		"title": "Technologies we use",
+		"description": "In this section, we showcase some of the technologies we use daily in our projects. We adapt to the needs of each page and client. Furthermore, we stay updated on the latest innovations that can enhance the performance of our proposals."
 	},
 	"services": {
 		"webDevelopment": {

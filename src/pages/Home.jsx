@@ -6,6 +6,7 @@ import AboutUs from '../components/AboutUs';
 import imgBackground from '../assets/imgBackground.png';
 import Services from '../components/Services';
 import Projects from '../components/Projects';
+import Technologies from '../components/Technologies';
 
 function Home() {
 	return (
@@ -21,6 +22,7 @@ function Home() {
 			<Services />
 			<AboutUs />
 			<Projects />
+			<Technologies />
 			<Contact />
 			<Footer />
 		</>
