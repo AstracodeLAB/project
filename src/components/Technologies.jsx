@@ -1,15 +1,5 @@
 import { useTranslation } from 'react-i18next';
-
-const technologies = [
-	{ name: 'HTML', logo: 'path_to_logo/html_logo.png' },
-	{ name: 'CSS', logo: 'path_to_logo/css_logo.png' },
-	{ name: 'JavaScript', logo: 'path_to_logo/js_logo.png' },
-	{ name: 'React', logo: 'path_to_logo/react_logo.png' },
-	{ name: 'Tailwind CSS', logo: 'path_to_logo/tailwind_logo.png' },
-	{ name: 'Astro', logo: 'path_to_logo/astro_logo.png' },
-	{ name: 'TypeScript', logo: 'path_to_logo/ts_logo.png' },
-	// Añade más tecnologías aquí si es necesario
-];
+import technologiesData from '../data/technologiesData';
 
 const Technologies = () => {
 	const { t } = useTranslation();
@@ -24,7 +14,7 @@ const Technologies = () => {
 					{t('technologiesSection.description')}
 				</p>
 				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center'>
-					{technologies.map((tech, index) => (
+					{technologiesData.map((tech, index) => (
 						<div key={index} className='flex flex-col items-center space-y-4'>
 							<img src={tech.logo} alt={`${tech.name} logo`} className='w-20 h-20 object-contain' />
 							<p className='text-lg font-medium'>{tech.name}</p>
