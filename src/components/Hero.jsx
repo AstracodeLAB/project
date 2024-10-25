@@ -24,8 +24,12 @@ function Hero() {
               <span dangerouslySetInnerHTML={{ __html: t('hero.descriptionPart2') }} />
               <span dangerouslySetInnerHTML={{ __html: t('hero.descriptionPart3') }} />
             </p>
-            <div className='flex justify-center lg:mt-3 mb-4'>
-              <button className='text-accent border border-secondary font-bold flex mt-4 p-3 pr-5 pl-5 text-xl rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out md:p-18'>
+            <div 
+            
+            className='flex justify-center lg:mt-3 mb-4'>
+              <button 
+               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+              className='text-accent border border-secondary font-bold flex mt-4 p-3 pr-5 pl-5 text-xl rounded-full hover:bg-accent hover:text-primary transition-all duration-300 ease-in-out '>
                 {t('hero.contactButton')}
               </button>
             </div>
